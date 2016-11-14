@@ -2,7 +2,6 @@
 * text=auto
 
 *.cs     diff=csharp
-*.py     diff=python
 
 # Standard to msysgit
 *.doc	 diff=astextplain
