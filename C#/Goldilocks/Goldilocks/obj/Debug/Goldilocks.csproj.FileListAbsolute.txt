@@ -1,0 +1,12 @@
+C:\Users\Justin Sexton\AppData\Local\Temporary Projects\Goldilocks\bin\Debug\Goldilocks.exe.config
+C:\Users\Justin Sexton\AppData\Local\Temporary Projects\Goldilocks\bin\Debug\Goldilocks.exe
+C:\Users\Justin Sexton\AppData\Local\Temporary Projects\Goldilocks\bin\Debug\Goldilocks.pdb
+C:\Users\Justin Sexton\AppData\Local\Temporary Projects\Goldilocks\obj\Debug\Goldilocks.csprojResolveAssemblyReference.cache
+C:\Users\Justin Sexton\AppData\Local\Temporary Projects\Goldilocks\obj\Debug\Goldilocks.exe
+C:\Users\Justin Sexton\AppData\Local\Temporary Projects\Goldilocks\obj\Debug\Goldilocks.pdb
+C:\Users\Justin Sexton\Desktop\Programmin\DailyProgrammer\C#\Goldilocks\Goldilocks\bin\Debug\Goldilocks.exe.config
+C:\Users\Justin Sexton\Desktop\Programmin\DailyProgrammer\C#\Goldilocks\Goldilocks\obj\Debug\Goldilocks.exe
+C:\Users\Justin Sexton\Desktop\Programmin\DailyProgrammer\C#\Goldilocks\Goldilocks\obj\Debug\Goldilocks.pdb
+C:\Users\Justin Sexton\Desktop\Programmin\DailyProgrammer\C#\Goldilocks\Goldilocks\bin\Debug\Goldilocks.exe
+C:\Users\Justin Sexton\Desktop\Programmin\DailyProgrammer\C#\Goldilocks\Goldilocks\bin\Debug\Goldilocks.pdb
+C:\Users\Justin Sexton\Desktop\Programmin\DailyProgrammer\C#\Goldilocks\Goldilocks\obj\Debug\Goldilocks.csprojResolveAssemblyReference.cache

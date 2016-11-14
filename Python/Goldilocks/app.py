@@ -8,7 +8,7 @@ def determine_acceptable_seats(path):
         line_index = 1
         for line in data:
             max_weight, temperature = map(int, line.split(" "))
-            if (max_weight > weight) and (max_temperature > temperature):
+            if (max_weight >= weight) and (max_temperature >= temperature):
                 yield line_index
             line_index += 1
 
