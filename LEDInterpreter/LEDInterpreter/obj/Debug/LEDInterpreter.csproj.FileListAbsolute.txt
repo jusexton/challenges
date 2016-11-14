@@ -1,0 +1,16 @@
+C:\Users\Justin Sexton\AppData\Local\Temporary Projects\LEDInterpreter\bin\Debug\LEDInterpreter.exe.config
+C:\Users\Justin Sexton\Desktop\Programmin\Visual Studio 2015\Projects\LEDInterpreter\LEDInterpreter\bin\Debug\LEDInterpreter.exe.config
+C:\Users\Justin Sexton\Desktop\Programmin\Visual Studio 2015\Projects\LEDInterpreter\LEDInterpreter\bin\Debug\LEDInterpreter.exe
+C:\Users\Justin Sexton\Desktop\Programmin\Visual Studio 2015\Projects\LEDInterpreter\LEDInterpreter\bin\Debug\LEDInterpreter.pdb
+C:\Users\Justin Sexton\Desktop\Programmin\Visual Studio 2015\Projects\LEDInterpreter\LEDInterpreter\obj\Debug\LEDInterpreter.csprojResolveAssemblyReference.cache
+C:\Users\Justin Sexton\Desktop\Programmin\Visual Studio 2015\Projects\LEDInterpreter\LEDInterpreter\obj\Debug\LEDInterpreter.exe
+C:\Users\Justin Sexton\Desktop\Programmin\Visual Studio 2015\Projects\LEDInterpreter\LEDInterpreter\obj\Debug\LEDInterpreter.pdb
+C:\Users\Justin Sexton\Desktop\Programmin\C#\LEDInterpreter\LEDInterpreter\bin\Debug\LEDInterpreter.exe.config
+C:\Users\Justin Sexton\Desktop\Programmin\C#\LEDInterpreter\LEDInterpreter\obj\Debug\LEDInterpreter.exe
+C:\Users\Justin Sexton\Desktop\Programmin\C#\LEDInterpreter\LEDInterpreter\obj\Debug\LEDInterpreter.pdb
+C:\Users\Justin Sexton\Desktop\Programmin\Projects\C#\LEDInterpreter\LEDInterpreter\bin\Debug\LEDInterpreter.exe.config
+C:\Users\Justin Sexton\Desktop\Programmin\Projects\C#\LEDInterpreter\LEDInterpreter\obj\Debug\LEDInterpreter.exe
+C:\Users\Justin Sexton\Desktop\Programmin\Projects\C#\LEDInterpreter\LEDInterpreter\obj\Debug\LEDInterpreter.pdb
+C:\Users\Justin Sexton\Desktop\Programmin\Projects\C#\LEDInterpreter\LEDInterpreter\bin\Debug\LEDInterpreter.exe
+C:\Users\Justin Sexton\Desktop\Programmin\Projects\C#\LEDInterpreter\LEDInterpreter\bin\Debug\LEDInterpreter.pdb
+C:\Users\Justin Sexton\Desktop\Programmin\Projects\C#\LEDInterpreter\LEDInterpreter\obj\Debug\LEDInterpreter.csprojResolveAssemblyReference.cache

@@ -1,0 +1,11 @@
+ld a,14
+out a
+ld a,12
+out a
+ld a,8
+out a
+out a
+ld a,12
+out a
+ld a,14
+out a
