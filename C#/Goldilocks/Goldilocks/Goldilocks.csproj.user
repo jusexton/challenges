@@ -2,5 +2,6 @@
 <Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
     <StartArguments>seats.txt</StartArguments>
+    <StartWorkingDirectory>C:\Users\Justin Sexton\Desktop\Programmin\DailyProgrammer\C#\Goldilocks\Goldilocks\Data\</StartWorkingDirectory>
   </PropertyGroup>
 </Project>
