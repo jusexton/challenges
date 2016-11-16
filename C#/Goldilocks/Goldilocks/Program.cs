@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 /// <summary>
 /// Inspired by r/dailyprogrammer
 /// https://www.reddit.com/r/dailyprogrammer/comments/5bn0b7/20161107_challenge_291_easy_goldilocks_bear/
-/// # Difficulty: Easy
+/// Difficulty: Easy
 /// </summary>
 namespace Goldilocks
 {
