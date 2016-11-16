@@ -1,6 +1,6 @@
 ﻿namespace LEDInterpreter
 {
-    // Represents a 8-bit register.
+    // Represents an 8-bit register.
     public class Register
     {
         public Register(char name)

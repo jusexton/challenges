@@ -4,10 +4,6 @@ using System.IO;
 using System.Linq;
 using System.Text.RegularExpressions;
 
-/// <summary>
-/// Inspired by r/dailyprogrammer
-/// https://www.reddit.com/r/dailyprogrammer/comments/5as91q/20161102_challenge_290_intermediate_blinking_leds/
-/// </summary>
 namespace LEDInterpreter
 {
     public class Interpreter

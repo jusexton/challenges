@@ -14,3 +14,6 @@ C:\Users\Justin Sexton\Desktop\Programmin\Projects\C#\LEDInterpreter\LEDInterpre
 C:\Users\Justin Sexton\Desktop\Programmin\Projects\C#\LEDInterpreter\LEDInterpreter\bin\Debug\LEDInterpreter.exe
 C:\Users\Justin Sexton\Desktop\Programmin\Projects\C#\LEDInterpreter\LEDInterpreter\bin\Debug\LEDInterpreter.pdb
 C:\Users\Justin Sexton\Desktop\Programmin\Projects\C#\LEDInterpreter\LEDInterpreter\obj\Debug\LEDInterpreter.csprojResolveAssemblyReference.cache
+C:\Users\Justin Sexton\Desktop\Programmin\DailyProgrammer\C#\LEDInterpreter\LEDInterpreter\bin\Debug\LEDInterpreter.exe.config
+C:\Users\Justin Sexton\Desktop\Programmin\DailyProgrammer\C#\LEDInterpreter\LEDInterpreter\obj\Debug\LEDInterpreter.exe
+C:\Users\Justin Sexton\Desktop\Programmin\DailyProgrammer\C#\LEDInterpreter\LEDInterpreter\obj\Debug\LEDInterpreter.pdb
