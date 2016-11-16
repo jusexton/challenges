@@ -1,3 +1,7 @@
+# Inspired by r/dailyprogrammer
+# https://www.reddit.com/r/dailyprogrammer/comments/5aemnn/20161031_challenge_290_easy_kaprekar_numbers/
+
+
 def main():
     kaprekar_numbers = find_in_range(100)
     print(', '.join(str(x) for x in kaprekar_numbers))
