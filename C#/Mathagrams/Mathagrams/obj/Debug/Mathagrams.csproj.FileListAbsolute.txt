@@ -6,3 +6,8 @@ C:\Users\Justin Sexton\Desktop\Mathagrams\Mathagrams\bin\Debug\Mathagrams.exe
 C:\Users\Justin Sexton\Desktop\Mathagrams\Mathagrams\bin\Debug\Mathagrams.pdb
 C:\Users\Justin Sexton\Desktop\Mathagrams\Mathagrams\obj\Debug\Mathagrams.exe
 C:\Users\Justin Sexton\Desktop\Mathagrams\Mathagrams\obj\Debug\Mathagrams.pdb
+C:\Users\Justin Sexton\Desktop\Programmin\DailyProgrammer\C#\Mathagrams\Mathagrams\obj\Debug\Mathagrams.exe
+C:\Users\Justin Sexton\Desktop\Programmin\DailyProgrammer\C#\Mathagrams\Mathagrams\obj\Debug\Mathagrams.pdb
+C:\Users\Justin Sexton\Desktop\Programmin\DailyProgrammer\C#\Mathagrams\Mathagrams\bin\Debug\Mathagrams.exe
+C:\Users\Justin Sexton\Desktop\Programmin\DailyProgrammer\C#\Mathagrams\Mathagrams\bin\Debug\Mathagrams.pdb
+C:\Users\Justin Sexton\Desktop\Programmin\DailyProgrammer\C#\Mathagrams\Mathagrams\obj\Debug\Mathagrams.csprojResolveAssemblyReference.cache
