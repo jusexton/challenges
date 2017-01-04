@@ -31,7 +31,8 @@ public class IntersectionArea {
         Rectangle2D rectangle = new Rectangle2D.Double();
 
         double[] coords = Arrays.stream(input.split("[,]"))
-                .mapToDouble(Double::parseDouble).toArray();
+                .mapToDouble(Double::parseDouble)
+                .toArray();
 
         rectangle.setFrameFromDiagonal(coords[0], coords[1], coords[2], coords[3]);
         return rectangle;
