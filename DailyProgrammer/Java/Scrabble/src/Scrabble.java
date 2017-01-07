@@ -1,8 +1,7 @@
 import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
-import java.util.Comparator;
-import java.util.List;
+import java.util.*;
 import java.util.function.ToIntFunction;
 import java.util.stream.Collectors;
 
@@ -36,7 +35,7 @@ public class Scrabble {
     }
 
     // TODO: There must be a way to make this more elegant (possible polymorphism solution).
-    public static int getScore(String word) {
+    public static int getScore(final String word) {
         int score = 0;
         for (char c : word.toCharArray()) {
             switch (c) {
@@ -89,22 +88,22 @@ public class Scrabble {
     }
 
     // TODO: Combine highest and longest function by passing the KeyExtractor.
-    public static String getWord(List<String> words, String tiles, ToIntFunction<String> comparator) {
+    public static String getWord(final List<String> words, final String tiles, final ToIntFunction<String> comparator) {
         return words.stream()
                 .filter(x -> scrabble(tiles, x))
                 .max(Comparator.comparingInt(comparator))
                 .orElse("");
     }
 
-    public static List<String> loadFile(File file) throws IOException {
+    public static List<String> loadFile(final File file) throws IOException {
         return Files.lines(file.toPath())
                 .collect(Collectors.toList());
     }
 
-    // TODO: Find more efficient way of implementation (possbile Regex solution).
-    public static boolean scrabble(String tiles, String word) {
-        for (char c : word.toCharArray()) {
-            if (tiles.indexOf(c) != -1) {
+    // TODO: Find more efficient way of implementation (possible Regex solution).
+    public static boolean scrabble(String tiles, String word){
+        for (char c : word.toCharArray()){
+            if (tiles.indexOf(c) != -1){
                 tiles = tiles.replaceFirst(String.valueOf(c), "");
             } else if (tiles.contains("?")) {
                 tiles = tiles.replaceFirst("\\?", "");
