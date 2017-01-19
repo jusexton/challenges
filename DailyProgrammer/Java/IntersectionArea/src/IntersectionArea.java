@@ -27,7 +27,7 @@ public class IntersectionArea {
         }
     }
 
-    public static Rectangle2D getRectangle(String input) {
+    public static Rectangle2D getRectangle(final String input) {
         Rectangle2D rectangle = new Rectangle2D.Double();
 
         double[] coords = Arrays.stream(input.split("[,]"))
