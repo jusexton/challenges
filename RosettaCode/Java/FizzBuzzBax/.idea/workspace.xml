@@ -2,15 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5391abc9-ea20-40ad-b622-8890150e9fd5" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../FizzBuzz/.idea/inspectionProfiles/Project_Default.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../FizzBuzz/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../FizzBuzz/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../FizzBuzz/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../FizzBuzz/FizzBuzz.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../FizzBuzz/out/production/FizzBuzz/FizzBuzz.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../FizzBuzz/src/FizzBuzz.java" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Desktop/Programmin/Challenges/RosettaCode/Java/FizzBuzzBax/.idea/inspectionProfiles/Project_Default.xml" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Desktop/Programmin/Challenges/RosettaCode/Java/FizzBuzzBax/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Desktop/Programmin/Challenges/RosettaCode/Java/FizzBuzzBax/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Desktop/Programmin/Challenges/RosettaCode/Java/FizzBuzzBax/.idea/uiDesigner.xml" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Desktop/Programmin/Challenges/RosettaCode/Java/FizzBuzzBax/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Desktop/Programmin/Challenges/RosettaCode/Java/FizzBuzzBax/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Desktop/Programmin/Challenges/RosettaCode/Java/FizzBuzzBax/FizzBuzzBax.iml" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Desktop/Programmin/Challenges/RosettaCode/Java/FizzBuzzBax/out/production/FizzBuzz/FizzBuzz.class" afterPath="" />
+      <change type="DELETED" beforePath="$USER_HOME$/Desktop/Programmin/Challenges/RosettaCode/Java/FizzBuzzBax/src/FizzBuzzBax.java" afterPath="" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$USER_HOME$/Desktop/Programmin/Challenges/RosettaCode/Java/FizzBuzzBax/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,18 +25,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="FizzBuzzBax.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/FizzBuzzBax.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -45,7 +36,7 @@
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$USER_HOME$/Desktop/Programmin/Challenges" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -55,8 +46,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/FizzBuzz.java" />
-        <option value="$PROJECT_DIR$/src/FizzBuzzBax.java" />
+        <option value="$USER_HOME$/Desktop/Programmin/Challenges/RosettaCode/Java/FizzBuzzBax/src/FizzBuzz.java" />
+        <option value="$USER_HOME$/Desktop/Programmin/Challenges/RosettaCode/Java/FizzBuzzBax/src/FizzBuzzBax.java" />
       </list>
     </option>
   </component>
@@ -134,7 +125,7 @@
       <option name="MAIN_CLASS_NAME" value="FizzBuzzBax" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Desktop/Programmin/Challenges/RosettaCode/Java/FizzBuzzBax" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
@@ -219,7 +210,7 @@
       <option name="MAIN_CLASS_NAME" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Desktop/Programmin/Challenges/RosettaCode/Java/FizzBuzzBax" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
@@ -603,16 +594,16 @@
       <option name="presentableId" value="Default" />
       <updated>1484887940168</updated>
       <workItem from="1485495880114" duration="61000" />
-      <workItem from="1485495971635" duration="255000" />
+      <workItem from="1485495971635" duration="514000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="316000" />
+    <option name="totallyTimeSpent" value="575000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -628,7 +619,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -660,7 +651,7 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/FizzBuzzBax.java">
+    <entry file="file://$USER_HOME$/Desktop/Programmin/Challenges/RosettaCode/Java/FizzBuzzBax/src/FizzBuzzBax.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -668,7 +659,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/FizzBuzzBax.java">
+    <entry file="file://$USER_HOME$/Desktop/Programmin/Challenges/RosettaCode/Java/FizzBuzzBax/src/FizzBuzzBax.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -676,7 +667,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/FizzBuzzBax.java">
+    <entry file="file://$USER_HOME$/Desktop/Programmin/Challenges/RosettaCode/Java/FizzBuzzBax/src/FizzBuzzBax.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
