@@ -2,7 +2,7 @@
  * Inspired by rosettacode.org
  * http://rosettacode.org/wiki/General_FizzBuzz
  */
-public class FizzBuzz {
+public class FizzBuzzBax {
     public static void main(String[] args) {
         System.out.println(getFizz(105));
     }
