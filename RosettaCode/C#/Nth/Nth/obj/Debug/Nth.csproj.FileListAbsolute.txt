@@ -1,0 +1,6 @@
+C:\Users\Justin s\Desktop\Programmin\Challenges\RosettaCode\C#\Nth\Nth\bin\Debug\Nth.exe.config
+C:\Users\Justin s\Desktop\Programmin\Challenges\RosettaCode\C#\Nth\Nth\bin\Debug\Nth.exe
+C:\Users\Justin s\Desktop\Programmin\Challenges\RosettaCode\C#\Nth\Nth\bin\Debug\Nth.pdb
+C:\Users\Justin s\Desktop\Programmin\Challenges\RosettaCode\C#\Nth\Nth\obj\Debug\Nth.csprojResolveAssemblyReference.cache
+C:\Users\Justin s\Desktop\Programmin\Challenges\RosettaCode\C#\Nth\Nth\obj\Debug\Nth.exe
+C:\Users\Justin s\Desktop\Programmin\Challenges\RosettaCode\C#\Nth\Nth\obj\Debug\Nth.pdb
