@@ -13,12 +13,7 @@ def find_in_range(maximum, minimum=9):
     if maximum < 9:
         raise IndexError('Maximum must be greater than 9')
 
-    kaprekar_numbers = []
-    for i in range(minimum, maximum):
-        if is_kaprekar(i):
-            kaprekar_numbers.append(i)
-
-    return kaprekar_numbers
+    return [i for i in range(minimum, maximum) if is_kaprekar(i)]
 
 
 def is_kaprekar(number):

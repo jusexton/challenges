@@ -14,15 +14,3 @@ static long greatestCommonDivisor(final long valueOne, final long valueTwo) {
     }
     return -1
 }
-
-// Java 8 Stream API attempt.
-// Gets the job done, just sloppy and probably a few bugs.
-//
-//static long GCD(final long valueOne, final long valueTwo){
-//    long max = Math.min(valueOne, valueTwo)
-//    LongStream.generate {max--}
-//            .limit(max)
-//            .filter { it -> valueOne % it == 0L && valueTwo % it == 0L}
-//            .findFirst()
-//            .orElse(-1)
-//}
