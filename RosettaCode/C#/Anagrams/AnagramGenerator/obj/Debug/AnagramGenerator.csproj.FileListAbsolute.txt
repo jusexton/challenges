@@ -1,0 +1,5 @@
+C:\Users\Justin s\Desktop\Anagrams\AnagramGenerator\bin\Debug\AnagramGenerator.exe.config
+C:\Users\Justin s\Desktop\Anagrams\AnagramGenerator\bin\Debug\AnagramGenerator.exe
+C:\Users\Justin s\Desktop\Anagrams\AnagramGenerator\bin\Debug\AnagramGenerator.pdb
+C:\Users\Justin s\Desktop\Anagrams\AnagramGenerator\obj\Debug\AnagramGenerator.exe
+C:\Users\Justin s\Desktop\Anagrams\AnagramGenerator\obj\Debug\AnagramGenerator.pdb

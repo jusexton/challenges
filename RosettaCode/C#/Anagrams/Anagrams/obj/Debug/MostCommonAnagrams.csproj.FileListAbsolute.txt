@@ -1,0 +1,5 @@
+C:\Users\Justin s\Desktop\Anagrams\Anagrams\bin\Debug\Anagrams.exe.config
+C:\Users\Justin s\Desktop\Anagrams\Anagrams\bin\Debug\Anagrams.exe
+C:\Users\Justin s\Desktop\Anagrams\Anagrams\bin\Debug\Anagrams.pdb
+C:\Users\Justin s\Desktop\Anagrams\Anagrams\obj\Debug\Anagrams.exe
+C:\Users\Justin s\Desktop\Anagrams\Anagrams\obj\Debug\Anagrams.pdb
