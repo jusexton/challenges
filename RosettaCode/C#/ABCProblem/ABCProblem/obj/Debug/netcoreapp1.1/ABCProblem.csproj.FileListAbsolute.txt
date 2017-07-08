@@ -1,0 +1,9 @@
+C:\Users\Justin s\Desktop\ABCProblem\ABCProblem\bin\Debug\netcoreapp1.1\ABCProblem.deps.json
+C:\Users\Justin s\Desktop\ABCProblem\ABCProblem\bin\Debug\netcoreapp1.1\ABCProblem.runtimeconfig.json
+C:\Users\Justin s\Desktop\ABCProblem\ABCProblem\bin\Debug\netcoreapp1.1\ABCProblem.runtimeconfig.dev.json
+C:\Users\Justin s\Desktop\ABCProblem\ABCProblem\bin\Debug\netcoreapp1.1\ABCProblem.dll
+C:\Users\Justin s\Desktop\ABCProblem\ABCProblem\bin\Debug\netcoreapp1.1\ABCProblem.pdb
+C:\Users\Justin s\Desktop\ABCProblem\ABCProblem\obj\Debug\netcoreapp1.1\ABCProblem.csprojResolveAssemblyReference.cache
+C:\Users\Justin s\Desktop\ABCProblem\ABCProblem\obj\Debug\netcoreapp1.1\ABCProblem.AssemblyInfo.cs
+C:\Users\Justin s\Desktop\ABCProblem\ABCProblem\obj\Debug\netcoreapp1.1\ABCProblem.dll
+C:\Users\Justin s\Desktop\ABCProblem\ABCProblem\obj\Debug\netcoreapp1.1\ABCProblem.pdb
