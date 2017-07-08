@@ -9,7 +9,7 @@ namespace Anagrams
         public static void Main(string[] args)
         {
             var anagrams = GenerateAnagrams("Justin").ToList();
-            anagrams.ForEach(anagram => Console.WriteLine(anagram));
+            anagrams.ForEach(Console.WriteLine);
             Console.WriteLine("Number of Anagrams: {0}", anagrams.Count());
         }
 
