@@ -1,0 +1,9 @@
+C:\Users\Justin s\Desktop\BabbageProblem\BabbageProblem\bin\Debug\netcoreapp1.1\BabbageProblem.deps.json
+C:\Users\Justin s\Desktop\BabbageProblem\BabbageProblem\bin\Debug\netcoreapp1.1\BabbageProblem.runtimeconfig.json
+C:\Users\Justin s\Desktop\BabbageProblem\BabbageProblem\bin\Debug\netcoreapp1.1\BabbageProblem.runtimeconfig.dev.json
+C:\Users\Justin s\Desktop\BabbageProblem\BabbageProblem\bin\Debug\netcoreapp1.1\BabbageProblem.dll
+C:\Users\Justin s\Desktop\BabbageProblem\BabbageProblem\bin\Debug\netcoreapp1.1\BabbageProblem.pdb
+C:\Users\Justin s\Desktop\BabbageProblem\BabbageProblem\obj\Debug\netcoreapp1.1\BabbageProblem.csprojResolveAssemblyReference.cache
+C:\Users\Justin s\Desktop\BabbageProblem\BabbageProblem\obj\Debug\netcoreapp1.1\BabbageProblem.AssemblyInfo.cs
+C:\Users\Justin s\Desktop\BabbageProblem\BabbageProblem\obj\Debug\netcoreapp1.1\BabbageProblem.dll
+C:\Users\Justin s\Desktop\BabbageProblem\BabbageProblem\obj\Debug\netcoreapp1.1\BabbageProblem.pdb
