@@ -1,0 +1,9 @@
+C:\Users\Justin s\Desktop\FlattenList\FlattenList\bin\Debug\netcoreapp1.1\FlattenList.deps.json
+C:\Users\Justin s\Desktop\FlattenList\FlattenList\bin\Debug\netcoreapp1.1\FlattenList.runtimeconfig.json
+C:\Users\Justin s\Desktop\FlattenList\FlattenList\bin\Debug\netcoreapp1.1\FlattenList.runtimeconfig.dev.json
+C:\Users\Justin s\Desktop\FlattenList\FlattenList\bin\Debug\netcoreapp1.1\FlattenList.dll
+C:\Users\Justin s\Desktop\FlattenList\FlattenList\bin\Debug\netcoreapp1.1\FlattenList.pdb
+C:\Users\Justin s\Desktop\FlattenList\FlattenList\obj\Debug\netcoreapp1.1\FlattenList.csprojResolveAssemblyReference.cache
+C:\Users\Justin s\Desktop\FlattenList\FlattenList\obj\Debug\netcoreapp1.1\FlattenList.AssemblyInfo.cs
+C:\Users\Justin s\Desktop\FlattenList\FlattenList\obj\Debug\netcoreapp1.1\FlattenList.dll
+C:\Users\Justin s\Desktop\FlattenList\FlattenList\obj\Debug\netcoreapp1.1\FlattenList.pdb
