@@ -1,0 +1,9 @@
+C:\Users\Justin s\Desktop\HailstoneSequence\HailstoneSequence\bin\Debug\netcoreapp1.1\HailstoneSequence.deps.json
+C:\Users\Justin s\Desktop\HailstoneSequence\HailstoneSequence\bin\Debug\netcoreapp1.1\HailstoneSequence.runtimeconfig.json
+C:\Users\Justin s\Desktop\HailstoneSequence\HailstoneSequence\bin\Debug\netcoreapp1.1\HailstoneSequence.runtimeconfig.dev.json
+C:\Users\Justin s\Desktop\HailstoneSequence\HailstoneSequence\bin\Debug\netcoreapp1.1\HailstoneSequence.dll
+C:\Users\Justin s\Desktop\HailstoneSequence\HailstoneSequence\bin\Debug\netcoreapp1.1\HailstoneSequence.pdb
+C:\Users\Justin s\Desktop\HailstoneSequence\HailstoneSequence\obj\Debug\netcoreapp1.1\HailstoneSequence.csprojResolveAssemblyReference.cache
+C:\Users\Justin s\Desktop\HailstoneSequence\HailstoneSequence\obj\Debug\netcoreapp1.1\HailstoneSequence.AssemblyInfo.cs
+C:\Users\Justin s\Desktop\HailstoneSequence\HailstoneSequence\obj\Debug\netcoreapp1.1\HailstoneSequence.dll
+C:\Users\Justin s\Desktop\HailstoneSequence\HailstoneSequence\obj\Debug\netcoreapp1.1\HailstoneSequence.pdb
