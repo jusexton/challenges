@@ -1,0 +1,8 @@
+/home/justin/Desktop/Mode/bin/Debug/netcoreapp1.1/Mode.deps.json
+/home/justin/Desktop/Mode/bin/Debug/netcoreapp1.1/Mode.runtimeconfig.json
+/home/justin/Desktop/Mode/bin/Debug/netcoreapp1.1/Mode.runtimeconfig.dev.json
+/home/justin/Desktop/Mode/bin/Debug/netcoreapp1.1/Mode.dll
+/home/justin/Desktop/Mode/bin/Debug/netcoreapp1.1/Mode.pdb
+/home/justin/Desktop/Mode/obj/Debug/netcoreapp1.1/Mode.AssemblyInfo.cs
+/home/justin/Desktop/Mode/obj/Debug/netcoreapp1.1/Mode.dll
+/home/justin/Desktop/Mode/obj/Debug/netcoreapp1.1/Mode.pdb
