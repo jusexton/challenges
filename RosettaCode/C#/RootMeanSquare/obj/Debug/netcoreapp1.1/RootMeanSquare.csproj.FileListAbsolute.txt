@@ -1,0 +1,8 @@
+/home/justin/Desktop/RootMeanSquare/bin/Debug/netcoreapp1.1/RootMeanSquare.deps.json
+/home/justin/Desktop/RootMeanSquare/bin/Debug/netcoreapp1.1/RootMeanSquare.runtimeconfig.json
+/home/justin/Desktop/RootMeanSquare/bin/Debug/netcoreapp1.1/RootMeanSquare.runtimeconfig.dev.json
+/home/justin/Desktop/RootMeanSquare/bin/Debug/netcoreapp1.1/RootMeanSquare.dll
+/home/justin/Desktop/RootMeanSquare/bin/Debug/netcoreapp1.1/RootMeanSquare.pdb
+/home/justin/Desktop/RootMeanSquare/obj/Debug/netcoreapp1.1/RootMeanSquare.AssemblyInfo.cs
+/home/justin/Desktop/RootMeanSquare/obj/Debug/netcoreapp1.1/RootMeanSquare.dll
+/home/justin/Desktop/RootMeanSquare/obj/Debug/netcoreapp1.1/RootMeanSquare.pdb
