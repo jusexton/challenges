@@ -1,0 +1,8 @@
+/home/justin/Desktop/BracketBalance/bin/Debug/netcoreapp1.1/BracketBalance.deps.json
+/home/justin/Desktop/BracketBalance/bin/Debug/netcoreapp1.1/BracketBalance.runtimeconfig.json
+/home/justin/Desktop/BracketBalance/bin/Debug/netcoreapp1.1/BracketBalance.runtimeconfig.dev.json
+/home/justin/Desktop/BracketBalance/bin/Debug/netcoreapp1.1/BracketBalance.dll
+/home/justin/Desktop/BracketBalance/bin/Debug/netcoreapp1.1/BracketBalance.pdb
+/home/justin/Desktop/BracketBalance/obj/Debug/netcoreapp1.1/BracketBalance.AssemblyInfo.cs
+/home/justin/Desktop/BracketBalance/obj/Debug/netcoreapp1.1/BracketBalance.dll
+/home/justin/Desktop/BracketBalance/obj/Debug/netcoreapp1.1/BracketBalance.pdb
