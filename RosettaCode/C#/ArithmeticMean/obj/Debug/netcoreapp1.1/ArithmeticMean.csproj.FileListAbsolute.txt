@@ -1,0 +1,8 @@
+/home/justin/Desktop/ArithmeticMean/bin/Debug/netcoreapp1.1/ArithmeticMean.deps.json
+/home/justin/Desktop/ArithmeticMean/bin/Debug/netcoreapp1.1/ArithmeticMean.runtimeconfig.json
+/home/justin/Desktop/ArithmeticMean/bin/Debug/netcoreapp1.1/ArithmeticMean.runtimeconfig.dev.json
+/home/justin/Desktop/ArithmeticMean/bin/Debug/netcoreapp1.1/ArithmeticMean.dll
+/home/justin/Desktop/ArithmeticMean/bin/Debug/netcoreapp1.1/ArithmeticMean.pdb
+/home/justin/Desktop/ArithmeticMean/obj/Debug/netcoreapp1.1/ArithmeticMean.AssemblyInfo.cs
+/home/justin/Desktop/ArithmeticMean/obj/Debug/netcoreapp1.1/ArithmeticMean.dll
+/home/justin/Desktop/ArithmeticMean/obj/Debug/netcoreapp1.1/ArithmeticMean.pdb
