@@ -1,0 +1,8 @@
+/home/justin/Desktop/Median/bin/Debug/netcoreapp1.1/Median.deps.json
+/home/justin/Desktop/Median/bin/Debug/netcoreapp1.1/Median.runtimeconfig.json
+/home/justin/Desktop/Median/bin/Debug/netcoreapp1.1/Median.runtimeconfig.dev.json
+/home/justin/Desktop/Median/bin/Debug/netcoreapp1.1/Median.dll
+/home/justin/Desktop/Median/bin/Debug/netcoreapp1.1/Median.pdb
+/home/justin/Desktop/Median/obj/Debug/netcoreapp1.1/Median.AssemblyInfo.cs
+/home/justin/Desktop/Median/obj/Debug/netcoreapp1.1/Median.dll
+/home/justin/Desktop/Median/obj/Debug/netcoreapp1.1/Median.pdb
