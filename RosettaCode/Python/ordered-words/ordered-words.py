@@ -5,7 +5,7 @@ def main():
     ordered_words = [word for word in words if is_ordered(word)]
     largest_length = len(max(ordered_words, key=len))
     largest_ordered_words = [word for word in ordered_words if len(word) == largest_length]
-    print(largest_ordered_words, sep='\n')
+    print(', '.join(largest_ordered_words))
 
 def is_ordered(word):
     return ''.join(sorted(word)) == word
