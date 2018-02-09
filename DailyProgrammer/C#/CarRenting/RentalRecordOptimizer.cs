@@ -3,7 +3,7 @@ using System.Linq;
 
 namespace CarRenting
 {
-    public abstract class RentalRecordOptimizer
+    public static class RentalRecordOptimizer
     {
         public static List<RentalRecord> CalculateMostEfficientRecords(
             List<RentalRecord> rentals)
