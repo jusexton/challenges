@@ -6,7 +6,7 @@ namespace CarRenting
     public static class RentalRecordOptimizer
     {
         public static List<RentalRecord> CalculateMostEfficientRecords(
-            List<RentalRecord> rentals)
+            IEnumerable<RentalRecord> rentals)
         {
             var efficientRentals = new List<RentalRecord>();
             foreach (var rental in rentals.OrderBy(x => x.TotalDays()))
