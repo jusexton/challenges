@@ -5,9 +5,9 @@ using System.Linq;
 
 namespace CarRenting
 {
-    public abstract class RentalRecordLoader
+    public static class RentalRecordLoader
     {
-        public static List<RentalRecord> Load(string path)
+        public static IEnumerable<RentalRecord> Load(string path)
         {
             int recordCount;
             int[] startDays;
@@ -19,13 +19,8 @@ namespace CarRenting
                 endDays = ConvertStringToIntArray(reader.ReadLine());
             }
 
-            var rentalList = new List<RentalRecord>();
-            for (var i = 0; i < recordCount; i++)
-            {
-                rentalList.Add(new RentalRecord(startDays[i], endDays[i]));
-            }
-
-            return rentalList;
+            return startDays.Zip(endDays, (startDay, endDay)
+                => new RentalRecord(startDay, endDay));
         }
 
         private static int[] ConvertStringToIntArray(
