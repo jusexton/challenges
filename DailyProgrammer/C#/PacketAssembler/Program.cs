@@ -1,28 +1,28 @@
 ﻿using System;
-using System.IO;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text.RegularExpressions;
 
 namespace PacketAssembler
 {
-    class Program
+    public static class Program
     {
-        private static readonly string[] files =
+        private static readonly string[] Files =
         {
             "packets-one.txt", "packets-two.txt"
         };
 
-        public static void Main(string[] args)
+        public static void Main()
         {
-            foreach (var file in files)
+            foreach (var file in Files)
             {
                 var packets = PacketReader.Read(file);
                 Console.WriteLine(string.Join("\n", packets));
             }
         }
 
-        private class PacketReader
+        private static class PacketReader
         {
             public static IEnumerable<Packet> Read(string path)
             {

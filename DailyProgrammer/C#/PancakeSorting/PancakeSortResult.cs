@@ -5,15 +5,15 @@ namespace PancakeSorting
 {
     public class PancakeSortResult
     {
-        private List<string> _swaps;
+        private readonly List<string> _swaps;
 
-        public PancakeSortResult(List<int> initial)
+        public PancakeSortResult(IEnumerable<int> initial)
         {
             Initial = new List<int>(initial);
             _swaps = new List<string>();
         }
 
-        public List<int> Initial { get; }
+        private List<int> Initial { get; }
 
         // Stores the current state of pancakes.
         public void LogSwap(string pancakes)
