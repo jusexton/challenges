@@ -1,0 +1,1 @@
+fun main(args: Array<String>) = println("hi".repeat(5))
