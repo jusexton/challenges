@@ -1,0 +1,77 @@
+[
+  {
+    "EmployeeName": "Frank",
+    "Expenses": {
+      "Tea": 120,
+      "Coffee": 300,
+      "Water": 50,
+      "Milk": 67
+    },
+    "Revenue": {
+      "Tea": 190,
+      "Coffee": 325,
+      "Water": 682,
+      "Milk": 829
+    }
+  },
+  {
+    "EmployeeName": "Jane",
+    "Revenue": {
+      "Tea": 140,
+      "Coffee": 19,
+      "Water": 14,
+      "Milk": 140
+    },
+    "Expenses": {
+      "Tea": 65,
+      "Coffee": 10,
+      "Water": 299,
+      "Milk": 254
+    }
+  },
+  {
+    "EmployeeName": "Tom",
+    "Revenue": {
+      "Tea": 1926,
+      "Coffee": 293,
+      "Water": 852,
+      "Milk": 609
+    },
+    "Expenses": {
+      "Tea": 890,
+      "Coffee": 23,
+      "Water": 1290,
+      "Milk": 89
+    }
+  },
+  {
+    "EmployeeName": "Philip",
+    "Revenue": {
+      "Tea": 14,
+      "Coffee": 1491,
+      "Water": 56,
+      "Milk": 120
+    },
+    "Expenses": {
+      "Tea": 54,
+      "Coffee": 802,
+      "Water": 12,
+      "Milk": 129
+    }
+  },
+  {
+    "EmployeeName": "Thomas",
+    "Revenue": {
+      "Tea": 143,
+      "Coffee": 162,
+      "Water": 659,
+      "Milk": 87
+    },
+    "Expenses": {
+      "Tea": 430,
+      "Coffee": 235,
+      "Water": 145,
+      "Milk": 76
+    }
+  }
+]
