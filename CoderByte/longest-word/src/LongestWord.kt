@@ -1,12 +1,10 @@
-import java.security.InvalidParameterException
-
 fun main(args: Array<String>) {
     println(longestWord("This is a test sentence!"))
 }
 
 fun longestWord(sentence: String): String {
     if (sentence == "") {
-        throw InvalidParameterException("Sentence cannot be empty an string.")
+        throw IllegalArgumentException("Sentence cannot be empty an string.")
     }
 
     val words = Regex("[^a-zA-Z ]").replace(sentence, "").split(' ').toSortedSet()
