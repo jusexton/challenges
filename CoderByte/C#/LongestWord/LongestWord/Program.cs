@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Linq;
+using System.Text.RegularExpressions;
 
 namespace LongestWord
 {
@@ -6,17 +8,16 @@ namespace LongestWord
 	{
 		private static void Main()
 		{
-			Console.WriteLine(Factorial(Convert.ToInt32(Console.ReadLine())));
+			Console.WriteLine(LongestWord(Console.ReadLine()));
 		}
 
-		public static int Factorial(int num)
+		private static string LongestWord(string sen)
 		{
-			if (num >= 1)
-			{
-				return num * Factorial(num - 1);
-			}
-
-			return 1;
+			return new Regex(@"[^a-zA-Z0-9 ]")
+				.Replace(sen, "")
+				.Split(" ")
+				.OrderByDescending(word => word.Length)
+				.First();
 		}
 	}
 }
