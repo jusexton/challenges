@@ -16,6 +16,7 @@
     4. Build Tower: https://www.codewars.com/kata/576757b1df89ecf5bd00073b
     5. Bit Counting: https://www.codewars.com/kata/526571aae218b8ee490006f4
     6. Take a 10 Minute Walk: https://www.codewars.com/kata/54da539698b8a2ad76000228
+    7. Enough Is Enough: https://www.codewars.com/kata/554ca54ffa7d91b236000023
 3. 5 Kyu
     1. 1's, 0's and wildcards: https://www.codewars.com/kata/588f3e0dfa74475a2600002a
     2. Pascal Case to Snake Case: https://www.codewars.com/kata/529b418d533b76924600085d
