@@ -24,4 +24,5 @@
     5. Valid Parentheses: https://www.codewars.com/kata/52774a314c2333f0a7000688
 3. 4 Kyu
     1. Range Extraction: https://www.codewars.com/kata/51ba717bb08c1cd60f00002f
+    2. Sum Strings: https://www.codewars.com/kata/5324945e2ece5e1f32000370
     
