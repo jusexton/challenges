@@ -23,6 +23,7 @@
     3. Rot13: https://www.codewars.com/kata/530e15517bc88ac656000716
     4. Weight for Weight: https://www.codewars.com/kata/55c6126177c9441a570000cc
     5. Valid Parentheses: https://www.codewars.com/kata/52774a314c2333f0a7000688
+    6. Int to IPv4: https://www.codewars.com/kata/52e88b39ffb6ac53a400022e
 3. 4 Kyu
     1. Range Extraction: https://www.codewars.com/kata/51ba717bb08c1cd60f00002f
     2. Sum Strings: https://www.codewars.com/kata/5324945e2ece5e1f32000370
