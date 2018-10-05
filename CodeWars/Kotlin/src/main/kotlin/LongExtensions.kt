@@ -1,8 +1,3 @@
-package backwardPrime
-
-fun backwardsPrimes(start: Long, end: Long): String =
-        (start..end).filter { it -> it.isBackwardsPrime() }.joinToString(" ")
-
 fun Long.isBackwardsPrime(): Boolean {
     val longString = this.toString()
     val reversed = this.toString().reversed()

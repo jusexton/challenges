@@ -1,12 +1,10 @@
-package backwardPrime
-
 import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.DisplayName
 import org.junit.jupiter.params.ParameterizedTest
 import org.junit.jupiter.params.provider.ArgumentsSource
 
 @DisplayName("Backwards Prime Tests")
-internal class BackwardPrimesTests {
+internal class BackwardsPrimesTests {
     @DisplayName("Should display if a number is prime or not")
     @ParameterizedTest(name = "{0} is prime: {1}")
     @ArgumentsSource(PrimesTestArgumentsProvider::class)
