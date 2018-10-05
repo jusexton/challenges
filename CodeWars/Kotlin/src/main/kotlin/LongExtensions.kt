@@ -17,3 +17,5 @@ fun Long.isPrime(): Boolean = when {
         (3..boundary step 2).all { it -> this % it != 0L }
     }
 }
+
+fun Long.digits(): Iterable<Int> = this.toString().map(Character::getNumericValue)
