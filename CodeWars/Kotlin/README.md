@@ -1,4 +1,4 @@
-# CodeWars Kotlin Solutions
+# Kotlin CodeWars Solutions
 
 1. 7 Kyu
     1. Hide Password: https://www.codewars.com/kata/5a726f16373c2ee6c60000db
