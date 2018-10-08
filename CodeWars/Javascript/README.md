@@ -5,3 +5,4 @@
     2. Remove Minimum: https://www.codewars.com/kata/563cf89eb4747c5fb100001b
 2. 6 Kyu
     1. Missing Character: https://www.codewars.com/kata/5839edaa6754d6fec10000a2
+    2. Playing with digits: https://www.codewars.com/kata/5552101f47fc5178b1000050
