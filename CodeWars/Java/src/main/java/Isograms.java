@@ -1,4 +1,4 @@
-public class Isograms {
+public final class Isograms {
 //     Old Version
 //    public static Boolean isIsogram(String value) {
 //        value = value.toLowerCase();
