@@ -6,3 +6,5 @@
 2. 6 Kyu
     1. Divisibility Rule: https://www.codewars.com/kata/564057bc348c7200bd0000ff
     2. Backwards Read Primes: https://www.codewars.com/kata/5539fecef69c483c5a000015
+    3. Color Code Generation: https://www.codewars.com/kata/56f1c6034d0c330e4a001059
+    4. Convert to Camel Case: https://www.codewars.com/kata/517abf86da9663f1d2000003
