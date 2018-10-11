@@ -6,3 +6,4 @@
 2. 6 Kyu
     1. Missing Character: https://www.codewars.com/kata/5839edaa6754d6fec10000a2
     2. Playing with digits: https://www.codewars.com/kata/5552101f47fc5178b1000050
+    3. Panagrams: https://www.codewars.com/kata/545cedaa9943f7fe7b000048
