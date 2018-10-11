@@ -7,7 +7,7 @@
     1. Missing Character: https://www.codewars.com/kata/5839edaa6754d6fec10000a2
     2. Playing with digits: https://www.codewars.com/kata/5552101f47fc5178b1000050
     3. Panagrams: https://www.codewars.com/kata/545cedaa9943f7fe7b000048
-    4 Alphabet Position: https://www.codewars.com/kata/546f922b54af40e1e90001da
+    4. Alphabet Position: https://www.codewars.com/kata/546f922b54af40e1e90001da
 3. 5 Kyu
     1. Diretional Reduction: https://www.codewars.com/kata/550f22f4d758534c1100025a
 4. 4 Kyu
