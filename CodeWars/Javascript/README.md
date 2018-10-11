@@ -10,3 +10,6 @@
     4 Alphabet Position: https://www.codewars.com/kata/546f922b54af40e1e90001da
 3. 5 Kyu
     1. Diretional Reduction: https://www.codewars.com/kata/550f22f4d758534c1100025a
+4. 4 Kyu
+    1. Next Biggest Integer: https://www.codewars.com/kata/55983863da40caa2c900004e
+    2. Binary multiple of 3: https://www.codewars.com/kata/54de279df565808f8b00126a
