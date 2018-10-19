@@ -1,0 +1,1 @@
+fun smallEnough(numbers: IntArray, limit: Int) = numbers.all { it <= limit }
