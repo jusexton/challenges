@@ -1,17 +1,22 @@
+using System.Collections.Generic;
+using System.Linq;
+
 namespace CodeWars.Kata
 {
 	public static class IntExtensions
 	{
-		public static int SumDigits(this int value)
+		public static int SumDigits(this int value) => value.GetDigits().Sum();
+
+		public static IEnumerable<int> GetDigits(this int value)
 		{
-			var sum = 0;
+			var digitStack = new Stack<int>();
 			while (value > 0)
 			{
-				sum += value % 10;
+				digitStack.Push(value % 10);
 				value /= 10;
 			}
 
-			return sum;
+			return digitStack.Reverse();
 		}
 	}
 }

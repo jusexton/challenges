@@ -1,19 +1,23 @@
 using System;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace CodeWars.Kata
 {
 	public static class LongExtensions
 	{
-		public static int SumDigits(this long value)
+		public static int SumDigits(this long value) => value.GetDigits().Sum();
+
+		public static IEnumerable<int> GetDigits(this long value)
 		{
-			var sum = 0L;
+			var digitStack = new Stack<int>();
 			while (value > 0)
 			{
-				sum += value % 10;
+				digitStack.Push((int)value % 10);
 				value /= 10;
 			}
 
-			return (int) sum;
+			return digitStack.Reverse();
 		}
 		
 		public static bool IsSquare(this long n) => Math.Abs(Math.Sqrt(n) % 1) < double.Epsilon;

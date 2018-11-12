@@ -18,6 +18,7 @@
     6. Take a 10 Minute Walk: https://www.codewars.com/kata/54da539698b8a2ad76000228
     7. Enough Is Enough: https://www.codewars.com/kata/554ca54ffa7d91b236000023
     8. Ip Validation: https://www.codewars.com/kata/515decfd9dcfc23bb6000006
+    9. Persistent Bugger: https://www.codewars.com/kata/55bf01e5a717a0d57e0000ec
 3. 5 Kyu
     1. 1's, 0's and wildcards: https://www.codewars.com/kata/588f3e0dfa74475a2600002a
     2. Pascal Case to Snake Case: https://www.codewars.com/kata/529b418d533b76924600085d
