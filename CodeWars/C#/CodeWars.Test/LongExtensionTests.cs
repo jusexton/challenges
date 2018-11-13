@@ -1,4 +1,3 @@
-using System.Diagnostics.SymbolStore;
 using CodeWars.Kata;
 using Xunit;
 
@@ -7,10 +6,10 @@ namespace CodeWars.Test
 	public class LongExtensionTests
 	{
 		[Theory]
-		[InlineData(0L, 0)]
-		[InlineData(100L, 1)]
-		[InlineData(123L, 6)]
-		[InlineData(111111111111111111L, 18)]
+		[InlineData(0, 0)]
+		[InlineData(100, 1)]
+		[InlineData(123, 6)]
+		[InlineData(111111111111111111, 18)]
 		[InlineData(222222222222222222, 36)]
 		public void ShouldReturnTheSumOfAnIntDigits(long input, int expected)
 		{

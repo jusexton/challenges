@@ -13,7 +13,7 @@ namespace CodeWars.Kata
 			var digitStack = new Stack<int>();
 			while (value > 0)
 			{
-				digitStack.Push((int)value % 10);
+				digitStack.Push(Convert.ToInt32(value % 10));
 				value /= 10;
 			}
 
