@@ -22,6 +22,7 @@
     8. Ip Validation: https://www.codewars.com/kata/515decfd9dcfc23bb6000006
     9. Persistent Bugger: https://www.codewars.com/kata/55bf01e5a717a0d57e0000ec
     10. Digital Root: https://www.codewars.com/kata/541c8630095125aba6000c00
+    11. Equal Sides of an Array: https://www.codewars.com/kata/5679aa472b8f57fb8c000047
 4. 5 Kyu
     1. 1's, 0's and wildcards: https://www.codewars.com/kata/588f3e0dfa74475a2600002a
     2. Pascal Case to Snake Case: https://www.codewars.com/kata/529b418d533b76924600085d
