@@ -30,10 +30,9 @@
     4. Weight for Weight: https://www.codewars.com/kata/55c6126177c9441a570000cc
     5. Valid Parentheses: https://www.codewars.com/kata/52774a314c2333f0a7000688
     6. Int to IPv4: https://www.codewars.com/kata/52e88b39ffb6ac53a400022e
-    6. Factorial Trailing Zeros: https://www.codewars.com/kata/52f787eb172a8b4ae1000a34
+    7. Factorial Trailing Zeros: https://www.codewars.com/kata/52f787eb172a8b4ae1000a34
 5. 4 Kyu
     1. Range Extraction: https://www.codewars.com/kata/51ba717bb08c1cd60f00002f
     2. Sum Strings: https://www.codewars.com/kata/5324945e2ece5e1f32000370
     3. Binary Multiple of 3: https://www.codewars.com/kata/54de279df565808f8b00126a
-    4. Adding Big Numbers:
-    
+    4. Adding Big Numbers: https://www.codewars.com/kata/525f4206b73515bffb000b21
