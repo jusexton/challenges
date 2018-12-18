@@ -9,3 +9,6 @@
     4. Who Likes It: https://www.codewars.com/kata/5266876b8f4bf2da9b000362
 3. 5 Kyu
     1. Scramblies: https://www.codewars.com/kata/55c04b4cc56a697bb0000048
+4. 4 Kyu
+    1. Large Factorials: https://www.codewars.com/kata/557f6437bf8dcdd135000010
+    2. Strip Comments: https://www.codewars.com/kata/51c8e37cee245da6b40000bd
