@@ -18,7 +18,7 @@ public class FindTheOddIntTests {
         assertEquals(expected, FindTheOddInt.find(numbers));
     }
 
-    public class FindTheOddIntTestArgumentProvider implements ArgumentsProvider {
+    public static class FindTheOddIntTestArgumentProvider implements ArgumentsProvider {
         @Override
         public Stream<? extends Arguments> provideArguments(ExtensionContext context) {
             return Stream.of(

@@ -18,7 +18,7 @@ public class IsogramsTests {
         assertEquals(expected, Isograms.isIsogram(value));
     }
 
-    public class IsogramTestsArgumentProvider implements ArgumentsProvider {
+    public static class IsogramTestsArgumentProvider implements ArgumentsProvider {
         @Override
         public Stream<? extends Arguments> provideArguments(ExtensionContext context) {
             return Stream.of(
