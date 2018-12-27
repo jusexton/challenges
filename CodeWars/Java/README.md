@@ -9,6 +9,7 @@
     2. Find the Odd Int: https://www.codewars.com/kata/54da5a58ea159efa38000836
     3. Reverse or Rotate: https://www.codewars.com/kata/56b5afb4ed1f6d5fb0000991    
     4. Who Likes It: https://www.codewars.com/kata/5266876b8f4bf2da9b000362
+    5. Parity Outlier: https://www.codewars.com/kata/5526fc09a1bbd946250002dc
 3. 5 Kyu
     1. Scramblies: https://www.codewars.com/kata/55c04b4cc56a697bb0000048
     2. Count Ip Address: https://www.codewars.com/kata/526989a41034285187000de4
