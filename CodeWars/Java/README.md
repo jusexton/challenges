@@ -14,11 +14,22 @@
     5. Parity Outlier: https://www.codewars.com/kata/5526fc09a1bbd946250002dc
     6. Tribonacci Sequence: https://www.codewars.com/kata/556deca17c58da83c00002db
     7. Duplicate Encoder: https://www.codewars.com/kata/54b42f9314d9229fd6000d9c
+    8. Spin Words: https://www.codewars.com/kata/5264d2b162488dc400000001
+    9. Dubstep: https://www.codewars.com/kata/551dc350bf4e526099000ae5
+    10. Vasya Clerk: https://www.codewars.com/kata/555615a77ebc7c2c8a0000b8
+    11. Consecutive Strings: https://www.codewars.com/kata/56a5d994ac971f1ac500003e
 3. 5 Kyu
     1. Scramblies: https://www.codewars.com/kata/55c04b4cc56a697bb0000048
     2. Count Ip Address: https://www.codewars.com/kata/526989a41034285187000de4
+    3. Maximum Sub-Array Sum: https://www.codewars.com/kata/54521e9ec8e60bc4de000d6c
+    4. Human Readable Time: https://www.codewars.com/kata/52685f7382004e774f0001f7
+    5. Double Cola: https://www.codewars.com/kata/551dd1f424b7a4cdae0001f0
 4. 4 Kyu
     1. Large Factorials: https://www.codewars.com/kata/557f6437bf8dcdd135000010
     2. Strip Comments: https://www.codewars.com/kata/51c8e37cee245da6b40000bd
     3. Binary Divisible by Five: https://www.codewars.com/kata/5647c3858d4acbbe550000ad
     4. Snail: https://www.codewars.com/kata/521c2db8ddc89b9b7a0000c1
+    5. Permutations: https://www.codewars.com/kata/5254ca2719453dcc0b00027d
+    4. Time Formatter: https://www.codewars.com/kata/52742f58faf5485cae000b9a
+    5. Bagels: https://www.codewars.com/kata/54bd6b4c956834c9870001a1
+    6. Sudoku Solution Validator: https://www.codewars.com/kata/529bf0e9bdf7657179000008
