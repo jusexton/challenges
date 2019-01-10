@@ -1,14 +1,17 @@
+import java.util.HashMap;
 import java.util.Map;
 
-import static java.util.Map.entry;
-
 public final class ComplementaryDna {
-    public final static Map<Character, Character> DNA_MAPPING = Map.ofEntries(
-            entry('A', 'T'),
-            entry('T', 'A'),
-            entry('C', 'G'),
-            entry('G', 'C')
-    );
+    public final static Map<Character, Character> DNA_MAPPINGS;
+
+    static {
+        DNA_MAPPINGS = new HashMap<>();
+        DNA_MAPPINGS.put('A', 'T');
+        DNA_MAPPINGS.put('T', 'A');
+        DNA_MAPPINGS.put('C', 'G');
+        DNA_MAPPINGS.put('G', 'C');
+
+    }
 
     // public static String makeComplement(String dna) {
     //     char[] complement = new char[dna.length()];
@@ -74,7 +77,7 @@ public final class ComplementaryDna {
     public static String makeComplement(String dna) {
         return dna.chars().mapToObj(c -> (char) c)
                 .map(character -> {
-                    Character complement = DNA_MAPPING.get(character);
+                    Character complement = DNA_MAPPINGS.getOrDefault(character, null);
                     if (complement == null) {
                         throw new IllegalArgumentException("Dna must only contain the characters ATGC.");
                     }
