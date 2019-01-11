@@ -33,3 +33,5 @@
     4. Time Formatter: https://www.codewars.com/kata/52742f58faf5485cae000b9a
     5. Bagels: https://www.codewars.com/kata/54bd6b4c956834c9870001a1
     6. Sudoku Solution Validator: https://www.codewars.com/kata/529bf0e9bdf7657179000008
+5. 3 Kyu
+    1. Prime Stream: https://www.codewars.com/kata/5519a584a73e70fa570005f5
