@@ -5,8 +5,8 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 @DisplayName("Large Factorial Tests")
 public class LargeFactorialTests {
-    @DisplayName("Should return the factorial of given number in string form")
     @Test
+    @DisplayName("Should return the factorial of given number in string form")
     public void testFactorial() {
         assertEquals("1", LargeFactorial.factorial(1));
         assertEquals("120", LargeFactorial.factorial(5));

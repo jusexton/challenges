@@ -1,4 +1,5 @@
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
@@ -12,6 +13,7 @@ public class TribonacciSequenceTests {
     }
 
     @Test
+    @DisplayName("Should return the correctly generated tribonacci sequence given a seed and length")
     public void testTribonacciSequence() {
         double precision = 1e-10;
         assertArrayEquals(new double[]{16, 15}, tribonacciSequence.tribonacci(new double[]{16, 15, 16}, 2), precision);

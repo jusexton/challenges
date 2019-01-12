@@ -1,12 +1,11 @@
 import java.util.Map;
-import java.util.function.Function;
 import java.util.stream.Collectors;
 
 public final class Scramblies {
     public static boolean scramble(String valueOne, String valueTwo) {
         Map<Character, Integer> characterFrequencies = getCharacterFrequencies(valueOne);
 
-        for(char character : valueTwo.toCharArray()) {
+        for (char character : valueTwo.toCharArray()) {
             int count = characterFrequencies.getOrDefault(character, 0);
             if (count > 0) {
                 characterFrequencies.put(character, count - 1);
@@ -21,6 +20,6 @@ public final class Scramblies {
     public static Map<Character, Integer> getCharacterFrequencies(String value) {
         return value.chars()
                 .mapToObj(c -> (char) c)
-                .collect(Collectors.groupingBy(Function.identity(), Collectors.summingInt(c -> 1)));
+                .collect(Collectors.groupingBy(c -> c, Collectors.summingInt(c -> 1)));
     }
 }

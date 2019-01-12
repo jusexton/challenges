@@ -5,8 +5,8 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 @DisplayName("Comment Stripping Tests")
 public class CommentStrippingTests {
-    @DisplayName("Should strip out comments and return new text without the stripped comments")
     @Test
+    @DisplayName("Should strip out comments and return new text without the stripped comments")
     public void testCommentStripping() {
         assertEquals(
                 "apples, pears\ngrapes\nbananas",

@@ -1,9 +1,11 @@
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class HumanReadableTimeTests {
     @Test
+    @DisplayName("Should convert given seconds to a HH:MM:SS format")
     public void testMakeReadable() {
         assertEquals("00:00:00", HumanReadableTime.makeReadable(0));
         assertEquals("00:00:05", HumanReadableTime.makeReadable(5));

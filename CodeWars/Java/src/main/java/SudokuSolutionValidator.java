@@ -20,7 +20,24 @@ public final class SudokuSolutionValidator {
         return true;
     }
 
+    /**
+     * Validates a given sudoku group, whether the group is a vertical/horizontal line or sudoku square
+     * it will be given and validated as a single array of numbers.
+     *
+     * @param group The sudoku group that will be validated
+     * @return Whether the given group is valid or not
+     */
     private static boolean validate(int[] group) {
-        return Arrays.stream(group).distinct().filter(i -> i > 0 && i < 10).count() == 9;
+        // If a group contains one of each number 1-9 it is a valid group
+        return Arrays.stream(group)
+                .distinct()
+                .filter(i -> i > 0 && i < 10)
+                .count() == 9;
     }
+
+    // private static boolean validate(Integer[] group) {
+    //     // If a group contains one of each number 1-9 it is a valid group
+    //     Set<Integer> numbers = new HashSet<>(Arrays.asList(group));
+    //     return numbers.size() == 9 && numbers.stream().mapToInt(i -> i).sum() == 45;
+    // }
 }

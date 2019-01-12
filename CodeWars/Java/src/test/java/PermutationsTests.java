@@ -1,21 +1,23 @@
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.stream.Collectors;
+import java.util.Collections;
+import java.util.HashSet;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class PermutationsTests {
     @Test
+    @DisplayName("Should return all permutations of a given character sequence")
     public void testSinglePermutations() {
-        assertEquals(new ArrayList<>(Arrays.asList("a")),
-                Permutations.singlePermutations("a").stream().sorted().collect(Collectors.toList()));
+        assertEquals(new HashSet<>(Collections.singletonList("a")),
+                Permutations.singlePermutations("a"));
 
-        assertEquals(new ArrayList<>(Arrays.asList("ab", "ba")),
-                Permutations.singlePermutations("ab").stream().sorted().collect(Collectors.toList()));
+        assertEquals(new HashSet<>(Arrays.asList("ab", "ba")),
+                Permutations.singlePermutations("ab"));
 
-        assertEquals(new ArrayList<>(Arrays.asList("aabb", "abab", "abba", "baab", "baba", "bbaa")),
-                Permutations.singlePermutations("aabb").stream().sorted().collect(Collectors.toList()));
+        assertEquals(new HashSet<>(Arrays.asList("aabb", "abab", "abba", "baab", "baba", "bbaa")),
+                Permutations.singlePermutations("aabb"));
     }
 }
