@@ -3,9 +3,10 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
+@DisplayName("Prime Stream Tests")
 public class PrimeStreamTests {
     @Test
-    @DisplayName("")
+    @DisplayName("Should display the correct collection of primes give a skip count and limit")
     public void testPrimeStream() {
         testPrimeStreamHelper(0, 10, new int[]{2, 3, 5, 7, 11, 13, 17, 19, 23, 29});
         testPrimeStreamHelper(10, 10, new int[]{31, 37, 41, 43, 47, 53, 59, 61, 67, 71});
