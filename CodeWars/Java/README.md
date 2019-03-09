@@ -18,6 +18,9 @@
     13. Printer Errors: https://www.codewars.com/kata/56541980fa08ab47a0000040
     14. Pin Validator: https://www.codewars.com/kata/55f8a9c06c018a0d6e000132
     15. Count The Digit: https://www.codewars.com/kata/566fc12495810954b1000030
+    16. Maximum Length Difference: https://www.codewars.com/kata/5663f5305102699bad000056
+    17. The Highest Profit Wins: https://www.codewars.com/kata/559590633066759614000063
+    18. Unlucky Days: https://www.codewars.com/kata/56eb0be52caf798c630013c0
 3. 6 Kyu
     1. Your Order Please: https://www.codewars.com/kata/55c45be3b2079eccff00010f
     2. Find the Odd Int: https://www.codewars.com/kata/54da5a58ea159efa38000836
@@ -33,6 +36,10 @@
     12. Valid Braces: https://www.codewars.com/kata/5277c8a221e209d3f6000b56
     13. Create Phone Number: https://www.codewars.com/kata/525f50e3b73515a6db000b83
     14. Expand Number: https://www.codewars.com/kata/5842df8ccbd22792a4000245
+    15. Help The Book Keeper: https://www.codewars.com/kata/54dc6f5a224c26032800005c
+    16. Transposition: https://www.codewars.com/kata/57a153e872292d7c030009d4
+    17. Encrypt This: https://www.codewars.com/kata/5848565e273af816fb000449
+    18. Find The Unique Number: https://www.codewars.com/kata/585d7d5adb20cf33cb000235
 4. 5 Kyu
     1. Scramblies: https://www.codewars.com/kata/55c04b4cc56a697bb0000048
     2. Count Ip Address: https://www.codewars.com/kata/526989a41034285187000de4

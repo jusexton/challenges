@@ -23,6 +23,7 @@
     9. Persistent Bugger: https://www.codewars.com/kata/55bf01e5a717a0d57e0000ec
     10. Digital Root: https://www.codewars.com/kata/541c8630095125aba6000c00
     11. Equal Sides of an Array: https://www.codewars.com/kata/5679aa472b8f57fb8c000047
+    12. Help The Book Keeper: https://www.codewars.com/kata/54dc6f5a224c26032800005c
 4. 5 Kyu
     1. 1's, 0's and wildcards: https://www.codewars.com/kata/588f3e0dfa74475a2600002a
     2. Pascal Case to Snake Case: https://www.codewars.com/kata/529b418d533b76924600085d
@@ -31,6 +32,7 @@
     5. Valid Parentheses: https://www.codewars.com/kata/52774a314c2333f0a7000688
     6. Int to IPv4: https://www.codewars.com/kata/52e88b39ffb6ac53a400022e
     7. Factorial Trailing Zeros: https://www.codewars.com/kata/52f787eb172a8b4ae1000a34
+    8. RGB to Hex: https://www.codewars.com/kata/513e08acc600c94f01000001
 5. 4 Kyu
     1. Range Extraction: https://www.codewars.com/kata/51ba717bb08c1cd60f00002f
     2. Sum Strings: https://www.codewars.com/kata/5324945e2ece5e1f32000370
