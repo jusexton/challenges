@@ -11,6 +11,10 @@
     6. Next Perfect Square: https://www.codewars.com/kata/56269eb78ad2e4ced1000013
     7. You're a Square: https://www.codewars.com/kata/54c27a33fb7da0db0100040e
     8. Shortest Word: https://www.codewars.com/kata/57cebe1dc6fdc20c57000ac9
+    9. Lowest Two: https://www.codewars.com/kata/558fc85d8fd1938afb000014
+    10. List Filtering: https://www.codewars.com/kata/53dbd5315a3c69eed20002dd
+    11. Ones and Zeroes: https://www.codewars.com/kata/578553c3a1b8d5c40300037c
+    12: Find The Divisors: https://www.codewars.com/kata/544aed4c4a30184e960010f4
 3. 6 Kyu
     1. File Name Extraction: https://www.codewars.com/kata/597770e98b4b340e5b000071
     2. Array Difference: https://www.codewars.com/kata/523f5d21c841566fde000009
