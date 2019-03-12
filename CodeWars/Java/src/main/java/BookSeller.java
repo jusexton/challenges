@@ -1,22 +1,10 @@
+import helpers.Book;
+
 import java.util.Arrays;
 import java.util.Map;
 import java.util.stream.Collectors;
 
 public final class BookSeller {
-    public static class Book {
-        private final String category;
-        private final String code;
-        private final int quantity;
-
-        public Book(String label) {
-            String[] codeAndQuantity = label.split(" ");
-
-            this.category = codeAndQuantity[0].substring(0, 1);
-            this.code = codeAndQuantity[0].substring(1);
-            this.quantity = Integer.parseInt(codeAndQuantity[1]);
-        }
-    }
-
     public static String stockSummary(String[] bookLabels, String[] categories) {
         if (bookLabels.length == 0 || categories.length == 0) {
             return "";
@@ -25,13 +13,12 @@ public final class BookSeller {
         // Group each category and sum the quantities of all books with the same category.
         Map<String, Integer> categoryQuantities = Arrays.stream(bookLabels)
                 .map(Book::new)
-                .collect(Collectors.groupingBy(book -> book.category,
-                        Collectors.summingInt(book -> book.quantity)));
+                .collect(Collectors.groupingBy(Book::getCategory,
+                        Collectors.summingInt(Book::getQuantity)));
 
         // Map each given category to the sum of all those categories.
         return Arrays.stream(categories)
-                .map(category -> String.format("(%s : %d)",
-                        category, categoryQuantities.getOrDefault(category, 0)))
+                .map(category -> String.format("(%s : %d)", category, categoryQuantities.getOrDefault(category, 0)))
                 .collect(Collectors.joining(" - "));
     }
 
