@@ -2,6 +2,7 @@
 
 1. 8 Kyu
     1. Sum Positive: https://www.codewars.com/kata/5715eaedb436cf5606000381
+    2. Total Amount of Points: https://www.codewars.com/kata/5bb904724c47249b10000131
 2. 7 Kyu
     1. Isograms: https://www.codewars.com/kata/54ba84be607a92aa900000f1
     2. High and Low: https://www.codewars.com/kata/554b4ac871d6813a03000035
@@ -47,6 +48,7 @@
     4. Human Readable Time: https://www.codewars.com/kata/52685f7382004e774f0001f7
     5. Double Cola: https://www.codewars.com/kata/551dd1f424b7a4cdae0001f0
     6. Simple Pig Latin: https://www.codewars.com/kata/520b9d2ad5c005041100000f
+    7. One Semicolon Fibonacci Stream: https://www.codewars.com/kata/59e625bf3d09a7471d00020e
 5. 4 Kyu
     1. Large Factorials: https://www.codewars.com/kata/557f6437bf8dcdd135000010
     2. Strip Comments: https://www.codewars.com/kata/51c8e37cee245da6b40000bd
