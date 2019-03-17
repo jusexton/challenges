@@ -1,6 +1,5 @@
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
-import java.util.stream.Stream;
 
 public final class NumberOfNumbers {
     public static String numberOfNumbers(final int value) {
@@ -10,7 +9,7 @@ public final class NumberOfNumbers {
 
         final String delimiter = value > 0 ? "-" : "+";
         return IntStream.rangeClosed(1, Math.abs(value))
-                .mapToObj(n -> Stream.generate(() -> String.valueOf(n)).limit(n).collect(Collectors.joining("")))
+                .mapToObj(n -> new String(new char[n]).replace("\0", String.valueOf(n)))
                 .collect(Collectors.joining(delimiter));
     }
 }
