@@ -3,6 +3,8 @@
 1. 8 Kyu
     1. Sum Positive: https://www.codewars.com/kata/5715eaedb436cf5606000381
     2. Total Amount of Points: https://www.codewars.com/kata/5bb904724c47249b10000131
+    3. Reverse String: ttps://www.codewars.com/kata/5168bb5dfe9a00b126000018
+    4. Opposite Number: https://www.codewars.com/kata/56dec885c54a926dcd001095
 2. 7 Kyu
     1. Isograms: https://www.codewars.com/kata/54ba84be607a92aa900000f1
     2. High and Low: https://www.codewars.com/kata/554b4ac871d6813a03000035
@@ -41,6 +43,7 @@
     16. Transposition: https://www.codewars.com/kata/57a153e872292d7c030009d4
     17. Encrypt This: https://www.codewars.com/kata/5848565e273af816fb000449
     18. Find The Unique Number: https://www.codewars.com/kata/585d7d5adb20cf33cb000235
+    19. Matrix Addition: https://www.codewars.com/kata/526233aefd4764272800036f
 4. 5 Kyu
     1. Scramblies: https://www.codewars.com/kata/55c04b4cc56a697bb0000048
     2. Count Ip Address: https://www.codewars.com/kata/526989a41034285187000de4

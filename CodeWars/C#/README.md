@@ -14,7 +14,8 @@
     9. Lowest Two: https://www.codewars.com/kata/558fc85d8fd1938afb000014
     10. List Filtering: https://www.codewars.com/kata/53dbd5315a3c69eed20002dd
     11. Ones and Zeroes: https://www.codewars.com/kata/578553c3a1b8d5c40300037c
-    12: Find The Divisors: https://www.codewars.com/kata/544aed4c4a30184e960010f4
+    12. Find The Divisors: https://www.codewars.com/kata/544aed4c4a30184e960010f4
+    13. Capitalize Vowels: https://www.codewars.com/kata/5831c204a31721e2ae000294
 3. 6 Kyu
     1. File Name Extraction: https://www.codewars.com/kata/597770e98b4b340e5b000071
     2. Array Difference: https://www.codewars.com/kata/523f5d21c841566fde000009

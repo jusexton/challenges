@@ -14,7 +14,7 @@ fun Long.isPrime(): Boolean = when {
     this % 2 == 0L -> false
     else -> {
         val boundary = Math.floor(Math.sqrt(this.toDouble())).toInt()
-        (3..boundary step 2).all { it -> this % it != 0L }
+        (3..boundary step 2).all { this % it != 0L }
     }
 }
 
