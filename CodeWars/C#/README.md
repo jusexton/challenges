@@ -38,6 +38,7 @@
     6. Int to IPv4: https://www.codewars.com/kata/52e88b39ffb6ac53a400022e
     7. Factorial Trailing Zeros: https://www.codewars.com/kata/52f787eb172a8b4ae1000a34
     8. RGB to Hex: https://www.codewars.com/kata/513e08acc600c94f01000001
+    9. Bit Calculator: https://www.codewars.com/kata/52ece9de44751a64dc0001d9
 5. 4 Kyu
     1. Range Extraction: https://www.codewars.com/kata/51ba717bb08c1cd60f00002f
     2. Sum Strings: https://www.codewars.com/kata/5324945e2ece5e1f32000370
