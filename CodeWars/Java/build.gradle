@@ -30,3 +30,7 @@ dependencies {
             'org.junit.jupiter:junit-jupiter-params:5.2.0'
     )
 }
+
+test {
+    useJUnitPlatform()
+}

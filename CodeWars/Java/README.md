@@ -44,6 +44,7 @@
     17. Encrypt This: https://www.codewars.com/kata/5848565e273af816fb000449
     18. Find The Unique Number: https://www.codewars.com/kata/585d7d5adb20cf33cb000235
     19. Matrix Addition: https://www.codewars.com/kata/526233aefd4764272800036f
+    20. Highest Scoring Word: https://www.codewars.com/kata/57eb8fcdf670e99d9b000272
 4. 5 Kyu
     1. Scramblies: https://www.codewars.com/kata/55c04b4cc56a697bb0000048
     2. Count Ip Address: https://www.codewars.com/kata/526989a41034285187000de4
