@@ -29,6 +29,7 @@
     10. Digital Root: https://www.codewars.com/kata/541c8630095125aba6000c00
     11. Equal Sides of an Array: https://www.codewars.com/kata/5679aa472b8f57fb8c000047
     12. Help The Book Keeper: https://www.codewars.com/kata/54dc6f5a224c26032800005c
+    13. IQ Test: https://www.codewars.com/kata/552c028c030765286c00007d
 4. 5 Kyu
     1. 1's, 0's and wildcards: https://www.codewars.com/kata/588f3e0dfa74475a2600002a
     2. Pascal Case to Snake Case: https://www.codewars.com/kata/529b418d533b76924600085d
