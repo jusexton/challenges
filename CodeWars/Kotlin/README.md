@@ -15,5 +15,6 @@
     5. Which Are In: https://www.codewars.com/kata/550554fd08b86f84fe000a58
     6. Unwanted Dollars: https://www.codewars.com/kata/587309155cfd6b9fb60000a0
     7. Meeting: https://www.codewars.com/kata/59df2f8f08c6cec835000012
+    8. A+B=123: https://www.codewars.com/kata/5966a52ab4f24db1800000cc
 4. 5 Kyu
     1. Last Digit of Large Number: https://www.codewars.com/kata/5511b2f550906349a70004e1
