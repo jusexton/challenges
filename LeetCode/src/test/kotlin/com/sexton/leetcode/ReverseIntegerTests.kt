@@ -25,7 +25,7 @@ class ReverseIntegerTests {
     }
 
     @Test
-    fun `should return 0 when the reversed number results in an intteger overflow`() {
+    fun `should return 0 when the reversed number results in an integer overflow`() {
         assertEquals(0, 1534236469.reverse())
     }
 }
