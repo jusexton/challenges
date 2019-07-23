@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Assertions.assertFalse
 import org.junit.jupiter.api.Assertions.assertTrue
 import org.junit.jupiter.api.Test
 
-class ValidParenthesesTests {
+class ValidParenthesesTest {
     @Test
     fun `should return true when given empty string`() {
         assertTrue(ValidParentheses.isValid(""))

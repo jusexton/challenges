@@ -3,7 +3,7 @@ package com.sexton.leetcode
 import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.Test
 
-class ReverseIntegerTests {
+class ReverseIntegerTest {
     @Test
     fun `should return 0 when given 0`() {
         assertEquals(0, 0.reverse())

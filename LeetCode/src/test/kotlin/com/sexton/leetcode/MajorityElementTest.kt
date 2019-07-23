@@ -8,7 +8,7 @@ import org.junit.jupiter.params.provider.ArgumentsProvider
 import org.junit.jupiter.params.provider.ArgumentsSource
 import java.util.stream.Stream
 
-class MajorityElementTests {
+class MajorityElementTest {
     @ParameterizedTest
     @ArgumentsSource(MajorityElementTestsArgumentProvider::class)
     fun `should return the element that appears the majority of the time`(expected: Int, numbers: IntArray) {

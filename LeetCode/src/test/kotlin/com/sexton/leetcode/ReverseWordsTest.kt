@@ -8,7 +8,7 @@ import org.junit.jupiter.params.provider.ArgumentsProvider
 import org.junit.jupiter.params.provider.ArgumentsSource
 import java.util.stream.Stream
 
-class ReverseWordsTests {
+class ReverseWordsTest {
     @ParameterizedTest
     @ArgumentsSource(ReverseWordsWithoutRedundantWhitespaceTestsArgumentProvider::class)
     fun `should correctly reverse words that do not have redundant whitespace`(expected: String, input: String) {

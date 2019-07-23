@@ -10,7 +10,7 @@ import org.junit.jupiter.params.provider.ArgumentsProvider
 import org.junit.jupiter.params.provider.ArgumentsSource
 import java.util.stream.Stream
 
-class TwoSumTests {
+class TwoSumTest {
     @ParameterizedTest
     @ArgumentsSource(TwoSumTestsArgumentProvider::class)
     fun `should return the two correct indices that result in the target sum`(

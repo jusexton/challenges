@@ -3,7 +3,7 @@ package com.sexton.leetcode
 import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.Test
 
-class MinStackTests {
+class MinStackTest {
     @Test
     fun `should correctly return the value on top of the stack`() {
         val stack = MinStack()

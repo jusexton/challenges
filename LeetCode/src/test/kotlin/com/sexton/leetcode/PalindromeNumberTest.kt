@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Assertions.assertTrue
 import org.junit.jupiter.params.ParameterizedTest
 import org.junit.jupiter.params.provider.ValueSource
 
-class PalindromeNumberTests {
+class PalindromeNumberTest {
     @ParameterizedTest
     @ValueSource(ints = [101, 22, 5, 77, 1001])
     fun `should return true if number reversed is the same forwards`(number: Int) {

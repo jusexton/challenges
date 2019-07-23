@@ -8,7 +8,7 @@ import org.junit.jupiter.params.provider.ArgumentsProvider
 import org.junit.jupiter.params.provider.ArgumentsSource
 import java.util.stream.Stream
 
-class AddBinaryTests {
+class AddBinaryTest {
     @ParameterizedTest
     @ArgumentsSource(AddBinaryTestsArgumentProvider::class)
     fun `should return the result of adding the two binary numbers`(

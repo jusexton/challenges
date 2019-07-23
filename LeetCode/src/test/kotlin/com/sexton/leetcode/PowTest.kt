@@ -3,7 +3,7 @@ package com.sexton.leetcode
 import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.Test
 
-class PowTests {
+class PowTest {
     @Test
     fun `should return the correct power given an x and n`() {
         assertEquals(1.0, Pow.pow(1.0, 0))

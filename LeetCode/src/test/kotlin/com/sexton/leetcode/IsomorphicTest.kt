@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Assertions.assertFalse
 import org.junit.jupiter.api.Assertions.assertTrue
 import org.junit.jupiter.api.Test
 
-class IsomorphicTests {
+class IsomorphicTest {
     @Test
     fun `should return true when given two strings are isomorphic`() {
         assertTrue(Isomorphic.isIsomorphic("paper", "title"))

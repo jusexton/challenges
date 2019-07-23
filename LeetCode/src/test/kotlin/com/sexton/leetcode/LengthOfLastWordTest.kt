@@ -8,7 +8,7 @@ import org.junit.jupiter.params.provider.ArgumentsProvider
 import org.junit.jupiter.params.provider.ArgumentsSource
 import java.util.stream.Stream
 
-class LengthOfLastWordTests {
+class LengthOfLastWordTest {
     @ParameterizedTest
     @ArgumentsSource(LengthOfLastWordTestsArgumentProvider::class)
     fun `should return the length of the last word in a string`(expected: Int, stringInput: String) {

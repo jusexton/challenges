@@ -11,7 +11,7 @@ import java.util.concurrent.TimeUnit
 import java.util.stream.Stream
 
 @Timeout(50, unit = TimeUnit.MILLISECONDS)
-class FactorialTrailingZeroTests {
+class FactorialTrailingZeroTest {
     @ParameterizedTest
     @ArgumentsSource(FactorialTrailingZeroTestsArgumentProvider::class)
     fun `should give back the number of trailing zeroes at end of fibonacci sequence`(expected: Int, number: Int) {
