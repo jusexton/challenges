@@ -24,23 +24,35 @@ class MaximumDepthTest {
     fun `should return the maximum depth of binary tree`(expected: Int, tree: MaximumDepth.TreeNode) {
         assertEquals(expected, MaximumDepth.maxDepth(tree))
     }
-    
+
     class MaximumDepthTestArgumentProvider : ArgumentsProvider {
         companion object {
-            private val depthOneTree: Pair<Int, MaximumDepth.TreeNode> = Pair(1, MaximumDepth.TreeNode(1))
-
-            private val depthTwoTree: Pair<Int, MaximumDepth.TreeNode>
-
             private val builtArgumentStream: Stream<Arguments>
 
             init {
-                val root = MaximumDepth.TreeNode(1)
-                root.left = MaximumDepth.TreeNode(2)
-                root.right = MaximumDepth.TreeNode(3)
-                depthTwoTree = Pair(2, root)
+                // Build depth two tree
+                val depthTwoTree = MaximumDepth.TreeNode(1)
+                depthTwoTree.left = MaximumDepth.TreeNode(2)
+                depthTwoTree.right = MaximumDepth.TreeNode(3)
+
+                // Build depth three tree
+                val depthThreeTree = MaximumDepth.TreeNode(1)
+                depthThreeTree.left = MaximumDepth.TreeNode(2)
+                depthThreeTree.left!!.left = MaximumDepth.TreeNode(3)
+
+                // Build depth four tree
+                val depthFourTree = MaximumDepth.TreeNode(1)
+                depthFourTree.left = MaximumDepth.TreeNode(2)
+                depthFourTree.left!!.left = MaximumDepth.TreeNode(3)
+                depthFourTree.left!!.left!!.right = MaximumDepth.TreeNode(4)
 
                 // Build arguments with pair
-                builtArgumentStream = arrayOf(depthOneTree, depthTwoTree).map {
+                builtArgumentStream = arrayOf(
+                    Pair(1, MaximumDepth.TreeNode(1)),
+                    Pair(2, depthTwoTree),
+                    Pair(3, depthThreeTree),
+                    Pair(4, depthFourTree)
+                ).map {
                     Arguments.of(it.first, it.second)
                 }.stream()
             }
