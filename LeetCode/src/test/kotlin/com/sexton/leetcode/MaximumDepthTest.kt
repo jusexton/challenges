@@ -24,14 +24,14 @@ class MaximumDepthTest {
     fun `should return the maximum depth of binary tree`(expected: Int, tree: MaximumDepth.TreeNode) {
         assertEquals(expected, MaximumDepth.maxDepth(tree))
     }
-
+    
     class MaximumDepthTestArgumentProvider : ArgumentsProvider {
         companion object {
             private val depthOneTree: Pair<Int, MaximumDepth.TreeNode> = Pair(1, MaximumDepth.TreeNode(1))
 
             private val depthTwoTree: Pair<Int, MaximumDepth.TreeNode>
 
-            private val treeList: Array<Pair<Int, MaximumDepth.TreeNode>>
+            private val builtArgumentStream: Stream<Arguments>
 
             init {
                 val root = MaximumDepth.TreeNode(1)
@@ -39,14 +39,13 @@ class MaximumDepthTest {
                 root.right = MaximumDepth.TreeNode(3)
                 depthTwoTree = Pair(2, root)
 
-                treeList = arrayOf(depthOneTree, depthTwoTree)
+                // Build arguments with pair
+                builtArgumentStream = arrayOf(depthOneTree, depthTwoTree).map {
+                    Arguments.of(it.first, it.second)
+                }.stream()
             }
         }
 
-        override fun provideArguments(context: ExtensionContext?): Stream<out Arguments> {
-            return treeList.map {
-                Arguments.of(it.first, it.second)
-            }.stream()
-        }
+        override fun provideArguments(context: ExtensionContext?): Stream<out Arguments> = builtArgumentStream
     }
 }
