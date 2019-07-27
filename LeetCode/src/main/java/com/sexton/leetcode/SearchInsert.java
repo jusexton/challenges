@@ -1,6 +1,14 @@
 package com.sexton.leetcode;
 
 public final class SearchInsert {
+	/**
+	 * Binary search implementation. Instead of returning -1 when a value is not found
+	 * the index at which the element should be placed is returned.
+	 *
+	 * @param numbers The sorted array to search.
+	 * @param number  The number to search for.
+	 * @return The index of the found element or index of where the not found element should be.
+	 */
 	public static int searchInsert(int[] numbers, int number) {
 		if (numbers.length == 0) {
 			return 0;
