@@ -35,4 +35,18 @@ public final class Anagrams {
         Arrays.sort(characters);
         return new String(characters);
     }
+
+    public static boolean isAnagramOptimized(final String stringOne, final String stringTwo) {
+        if (stringOne.length() != stringTwo.length()) {
+            return false;
+        }
+
+        // int value = 0;
+        // for (int i = 0; i < stringOne.length(); i++) {
+        //     value = value ^ (int) stringOne.charAt(i);
+        //     value = value ^ (int) stringTwo.charAt(i);
+        // }
+
+        return (stringOne + stringTwo).chars().reduce(0, (a, b) -> a ^ b) == 0;
+    }
 }

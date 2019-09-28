@@ -16,17 +16,19 @@ public class AnagramTest {
     @ArgumentsSource(ValidAnagramsArgumentProvider.class)
     public void shouldReturnTrueWhenGivenTwoStringsThatAreAnagrams(final String stringOne, final String stringTwo) {
         assertTrue(Anagrams.isAnagram(stringOne, stringTwo));
+        assertTrue(Anagrams.isAnagramOptimized(stringOne, stringTwo));
     }
 
     @ParameterizedTest
     @ArgumentsSource(InValidAnagramsArgumentProvider.class)
     public void shouldReturnFalseWhenGivenTwoStringsThatAreNotAnagrams(final String stringOne, final String stringTwo) {
         assertFalse(Anagrams.isAnagram(stringOne, stringTwo));
+        assertFalse(Anagrams.isAnagramOptimized(stringOne, stringTwo));
     }
 
     public static class ValidAnagramsArgumentProvider implements ArgumentsProvider {
         @Override
-        public Stream<? extends Arguments> provideArguments(ExtensionContext context) throws Exception {
+        public Stream<? extends Arguments> provideArguments(ExtensionContext context) {
             return Stream.of(
                     Arguments.of("", ""),
                     Arguments.of("a", "a"),
@@ -39,7 +41,7 @@ public class AnagramTest {
 
     public static class InValidAnagramsArgumentProvider implements ArgumentsProvider {
         @Override
-        public Stream<? extends Arguments> provideArguments(ExtensionContext context) throws Exception {
+        public Stream<? extends Arguments> provideArguments(ExtensionContext context) {
             // StringOne, StringTwo
             return Stream.of(
                     Arguments.of("123", "5"),
