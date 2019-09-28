@@ -2,9 +2,7 @@ package com.sexton.leetcode
 
 object TwoSum {
     fun twoSum(numbers: IntArray, target: Int): IntArray {
-        if (numbers.size < 2) {
-            throw IllegalArgumentException("Given inputs do not have a solution")
-        }
+        require(numbers.size >= 2) { "Given inputs do not have a solution" }
 
         val result = intArrayOf(0, 0)
         val indicesMap = mutableMapOf<Int, Int>()
