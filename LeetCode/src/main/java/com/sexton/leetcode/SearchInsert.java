@@ -18,7 +18,7 @@ public final class SearchInsert {
 		int right = numbers.length - 1;
 
 		while (left <= right) {
-			int middle = (int) Math.floor((left + right) / 2);
+			int middle = (int) Math.floor((left + right) >> 1);
 			if (numbers[middle] < number) {
 				left = middle + 1;
 				if (left > right) {
