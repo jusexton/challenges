@@ -1,5 +1,6 @@
 package com.sexton.leetcode;
 
+import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.Timeout;
 import org.junit.jupiter.api.extension.ExtensionContext;
 import org.junit.jupiter.params.ParameterizedTest;
@@ -14,6 +15,11 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 @Timeout(value = 50, unit = TimeUnit.MILLISECONDS)
 public class SearchInsertTest {
+    @Test
+    public void shouldReturnZeroWhenGivenNumberArrayIsEmpty() {
+        assertEquals(0, SearchInsert.searchInsert(new int[]{}, 0));
+    }
+
     @ParameterizedTest
     @ArgumentsSource(SearchInsertTestNumberExistsArgumentProvider.class)
     public void shouldProvideIndexOfNumberIfExistsInNumbers(final int expected, final int[] numbers, final int number) {

@@ -19,5 +19,6 @@ class IsomorphicTest {
     @Test
     fun `should return false when given two strings that are not isomorphic`() {
         assertFalse(Isomorphic.isIsomorphic("foo", "bar"))
+        assertFalse(Isomorphic.isIsomorphic("ac", "aa"))
     }
 }

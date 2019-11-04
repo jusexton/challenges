@@ -57,8 +57,8 @@ public class LongestCommonPrefixTest {
     }
 
     private static class LongestCommonPrefixStressTestArgumentProvider implements ArgumentsProvider {
-        private static final int PREFIX_LENGTH = 10000;
-        private static final int STRING_LENGTH = 10000;
+        private static final int PREFIX_LENGTH = 1000;
+        private static final int STRING_LENGTH = 1000;
         private static final int STRING_LIMIT = 100;
 
         private RandomStringSupplier randomPrefixSupplier;
