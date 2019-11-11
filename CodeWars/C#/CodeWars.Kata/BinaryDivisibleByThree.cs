@@ -2,7 +2,7 @@ using System.Text.RegularExpressions;
 
 namespace CodeWars.Kata
 {
-	public class BinaryDivisibleByThree
+	public static class BinaryDivisibleByThree
 	{
 		private static readonly Regex DivisibleByThreeRegex = new Regex(@"^0*(0*(1(01*0)*10*)0*)*$");
 

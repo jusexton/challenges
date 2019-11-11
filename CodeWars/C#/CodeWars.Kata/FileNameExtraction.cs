@@ -2,11 +2,11 @@ using System.Text.RegularExpressions;
 
 namespace CodeWars.Kata
 {
-	public class FileNameExtraction
+	public static class FileNameExtraction
 	{
-		private static readonly Regex Regex = new Regex(@"^\d+_(?<fileName>[\w | -]+\.\w+)\.\w+$");
+		private static readonly Regex FileNameRegex = new Regex(@"^\d+_(?<fileName>[\w | -]+\.\w+)\.\w+$");
 
 		public static string ExtractFileName(string dirtyFileName) =>
-			Regex.Match(dirtyFileName).Groups["fileName"].Value;
+			FileNameRegex.Match(dirtyFileName).Groups["fileName"].Value;
 	}
 }

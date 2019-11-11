@@ -41,11 +41,6 @@ namespace CodeWars.Kata
 		/// <exception cref="InvalidOperationException">Thrown when length is less than or equal to zero</exception>
 		private static IEnumerable<string> Permutations(int length)
 		{
-			if (length <= 0)
-			{
-				throw new InvalidOperationException("Length must be greater than zero");
-			}
-
 			var maxNumber = (int) Math.Ceiling(Math.Pow(2, length));
 			return Enumerable.Range(0, maxNumber)
 				.Select(number => Convert.ToString(number, 2).PadLeft(length, '0'));

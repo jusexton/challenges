@@ -3,19 +3,27 @@ using Xunit;
 
 namespace CodeWars.Test
 {
-	public class ParenthesesTests
-	{
-		[Theory]
-		[InlineData("", true)]
-		[InlineData("()", true)]
-		[InlineData("()()", true)]
-		[InlineData("(()())", true)]
-		[InlineData("(()()", false)]
-		[InlineData("(()", false)]
-		[InlineData("(", false)]
-		public void ShouldReturnWhetherGivenStringOfParenthesesIsFormattedCorrectly(string parentheses, bool expected)
-		{
-			Assert.Equal(expected, Parentheses.ValidParentheses(parentheses));
-		}
-	}
+    public class ParenthesesTests
+    {
+        [Theory]
+        [InlineData("")]
+        [InlineData("()")]
+        [InlineData("()()")]
+        [InlineData("(()())")]
+        [InlineData("{()[]}")]
+        public void ShouldReturnTrueWhenGivenValidStringOfPararentheses(string parentheses)
+        {
+            Assert.True(Parentheses.ValidParentheses(parentheses));
+        }
+
+        [Theory]
+        [InlineData("(]")]
+        [InlineData("(()()")]
+        [InlineData("(()")]
+        [InlineData("(")]
+        public void ShouldReturnFalseWhenGivenInValidStringOfPararentheses(string parentheses)
+        {
+            Assert.False(Parentheses.ValidParentheses(parentheses));
+        }
+    }
 }

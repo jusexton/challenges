@@ -4,45 +4,51 @@ using System.Numerics;
 
 namespace CodeWars.Kata
 {
-	public static class IntExtensions
-	{
-		public static int SumDigits(this int value) => value.GetDigits().Sum();
+    public static class IntExtensions
+    {
+        public static int SumDigits(this int value) => value.GetDigits().Sum();
 
-		public static IEnumerable<int> GetDigits(this int value)
-		{
-			var digitStack = new Stack<int>();
-			while (value > 0)
-			{
-				digitStack.Push(value % 10);
-				value /= 10;
-			}
+        public static IEnumerable<int> GetDigits(this int value)
+        {
+            var valueIsZero = value == 0;
+            if (valueIsZero)
+            {
+                return new[] {0};
+            }
 
-			return digitStack.Reverse();
-		}
+            var digitStack = new Stack<int>();
+            while (value > 0)
+            {
+                digitStack.Push(value % 10);
+                value /= 10;
+            }
 
-		/// <summary>
-		/// Returns the factorial of a value in the form of a BigInteger
-		/// </summary>
-		/// <param name="value"></param>
-		/// <returns>The calculated factorial</returns>
-		public static BigInteger Factorial(this int value)
-		{
-			// This function does not make use of recursion in order to
-			// stay away from stack overflow exceptions.
-			BigInteger sum = value;
-			BigInteger result = value;
-			for (var i = value - 2; i > 1; i -= 2)
-			{
-				sum += i;
-				result *= sum;
-			}
+            return digitStack.ToArray();
+        }
 
-			if (value % 2 != 0)
-			{
-				result *= value / 2 + 1;
-			}
+        /// <summary>
+        /// Returns the factorial of a value in the form of a BigInteger
+        /// </summary>
+        /// <param name="value"></param>
+        /// <returns>The calculated factorial</returns>
+        public static BigInteger Factorial(this int value)
+        {
+            // This function does not make use of recursion in order to
+            // stay away from stack overflow exceptions.
+            BigInteger sum = value;
+            BigInteger result = value;
+            for (var i = value - 2; i > 1; i -= 2)
+            {
+                sum += i;
+                result *= sum;
+            }
 
-			return result;
-		}
-	}
+            if (value % 2 != 0)
+            {
+                result *= value / 2 + 1;
+            }
+
+            return result;
+        }
+    }
 }

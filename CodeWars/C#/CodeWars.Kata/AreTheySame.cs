@@ -3,23 +3,25 @@ using System.Linq;
 
 namespace CodeWars.Kata
 {
-	public class AreTheySame
-	{
-		public static bool Compute(int[] a, int[] b)
-		{
-			if (a == null || b == null)
-			{
-				return false;
-			}
+    public static class AreTheySame
+    {
+        public static bool Compute(int[] a, int[] b)
+        {
+            var eitherValuesAreNull = a == null || b == null;
+            if (eitherValuesAreNull)
+            {
+                return false;
+            }
 
-			if (a.Length != b.Length)
-			{
-				return false;
-			}
+            var arrayLengthsAreEqual = a.Length == b.Length;
+            if (!arrayLengthsAreEqual)
+            {
+                return false;
+            }
 
-			return b.Select(number => (int) Math.Sqrt(number))
-				.OrderBy(n => n)
-				.SequenceEqual(a.OrderBy(n => n));
-		}
-	}
+            return b.Select(number => (int) Math.Sqrt(number))
+                .OrderBy(n => n)
+                .SequenceEqual(a.OrderBy(n => n));
+        }
+    }
 }

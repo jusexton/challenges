@@ -3,7 +3,7 @@ using System.Linq;
 
 namespace CodeWars.Kata
 {
-    public class BitCalculator
+    public static class BitCalculator
     {
         public static int Calculate(string numberOne, string numberTwo) => ToBaseTen(numberOne) + ToBaseTen(numberTwo);
 
@@ -15,15 +15,24 @@ namespace CodeWars.Kata
                 .Sum();
         }
 
-        public static int Power(int a, int b)
+        private static int Power(int a, int b)
         {
-            int y = 1;
+            var y = 1;
 
             while (true)
             {
-                if ((b & 1) != 0) y = a * y;
-                b = b >> 1;
-                if (b == 0) return y;
+                if ((b & 1) != 0)
+                {
+                    y = a * y;
+                }
+
+                b >>= 1;
+
+                if (b == 0)
+                {
+                    return y;
+                }
+
                 a *= a;
             }
         }

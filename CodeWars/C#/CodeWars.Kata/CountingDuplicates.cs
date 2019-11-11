@@ -2,7 +2,7 @@ using System.Linq;
 
 namespace CodeWars.Kata
 {
-	public class CountingDuplicates
+	public static class CountingDuplicates
 	{
 		public static int DuplicateCount(string str)
 			=> str.ToLower().GroupBy(c => c)

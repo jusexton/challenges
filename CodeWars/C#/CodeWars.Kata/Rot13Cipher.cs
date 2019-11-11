@@ -3,7 +3,7 @@ using System.Text.RegularExpressions;
 
 namespace CodeWars.Kata
 {
-	public class Rot13Cipher
+	public static class Rot13Cipher
 	{
 		public static string Rot13Encode(string message)
 		{

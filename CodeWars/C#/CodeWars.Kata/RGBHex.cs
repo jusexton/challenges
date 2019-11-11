@@ -1,5 +1,3 @@
-using System;
-
 namespace CodeWars.Kata
 {
     public static class RGBHex

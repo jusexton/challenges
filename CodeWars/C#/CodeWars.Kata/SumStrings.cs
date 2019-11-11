@@ -2,7 +2,7 @@ using System.Numerics;
 
 namespace CodeWars.Kata
 {
-	public class SumStrings
+	public static class SumStrings
 	{
 		public static string Sum(string stringOne, string stringTwo)
 			=> (BigInteger.Parse(string.IsNullOrEmpty(stringOne) ? "0" : stringOne) +

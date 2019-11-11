@@ -2,7 +2,7 @@ using System;
 
 namespace CodeWars.Kata
 {
-	public class NextPerfectSquare
+	public static class NextPerfectSquare
 	{
 		public static long FindNextSquare(long number)
 		{

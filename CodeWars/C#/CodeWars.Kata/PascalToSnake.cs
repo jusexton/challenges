@@ -2,7 +2,7 @@ using System.Text;
 
 namespace CodeWars.Kata
 {
-	public class PascalToSnake
+	public static class PascalToSnake
 	{
 		public static string ToSnakeCase(string content) 
 		{

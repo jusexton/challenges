@@ -3,7 +3,7 @@ using System.Linq;
 
 namespace CodeWars.Kata
 {
-	public class IntToIPv4
+	public static class IntToIPv4
 	{
 		public static string UInt32ToIP(uint integer, int groupCount = 8)
 		{

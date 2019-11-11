@@ -1,6 +1,6 @@
 namespace CodeWars.Kata
 {
-	public class BuildTower
+	public static class BuildTower
 	{
 		public static string[] Build(int nFloors)
 		{

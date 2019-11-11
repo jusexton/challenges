@@ -32,7 +32,7 @@ namespace CodeWars.Kata
 						differenceInX -= 1;
 						break;
 					default:
-						throw new ArgumentException($"{w} is not a valid direction.");
+						throw new ArgumentOutOfRangeException(nameof(walk), $"{w} is not a valid direction.");
 				}
 			}
 
