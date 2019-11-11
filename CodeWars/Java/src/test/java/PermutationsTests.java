@@ -6,6 +6,7 @@ import java.util.Collections;
 import java.util.HashSet;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNull;
 
 public class PermutationsTests {
     @Test
@@ -19,5 +20,10 @@ public class PermutationsTests {
 
         assertEquals(new HashSet<>(Arrays.asList("aabb", "abab", "abba", "baab", "baba", "bbaa")),
                 Permutations.singlePermutations("aabb"));
+    }
+
+    @Test
+    public void shouldReturnNullWhenGivenStringIsNull() {
+        assertNull(Permutations.singlePermutations(null));
     }
 }

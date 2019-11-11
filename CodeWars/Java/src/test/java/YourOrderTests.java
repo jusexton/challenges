@@ -1,4 +1,5 @@
 import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtensionContext;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
@@ -16,6 +17,12 @@ public class YourOrderTests {
     @ArgumentsSource(YourOrderTests.YourOrderTestsArgumentProvider.class)
     public void shouldReturnTheCorrectlyOrderedStringsByTheNumbersTheyContain(String input, String expected) {
         assertEquals(expected, YourOrder.order(input));
+    }
+
+    @Test
+    public void shouldReturnEmptyStringWhenGivenEmptyString() {
+        final String emptyString = "";
+        assertEquals(emptyString, YourOrder.order(emptyString));
     }
 
     public static class YourOrderTestsArgumentProvider implements ArgumentsProvider {

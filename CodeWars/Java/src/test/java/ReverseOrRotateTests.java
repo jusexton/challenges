@@ -1,4 +1,5 @@
 import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtensionContext;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
@@ -9,6 +10,7 @@ import java.util.stream.Stream;
 
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 
 @DisplayName("Reverse or Rotate Tests")
 public class ReverseOrRotateTests {
@@ -17,6 +19,11 @@ public class ReverseOrRotateTests {
     @ArgumentsSource(ReverseOrRotateTests.PartitionArgumentProvider.class)
     public void testPartition(String value, int chunkSize, String[] expected) {
         assertArrayEquals(expected, ReverseOrRotate.getPartitions(value, chunkSize).toArray());
+    }
+
+    @Test
+    public void shouldThrowIllegalArgumentExceptionWhenChunkSizeIsLessThanZero() {
+        assertThrows(IllegalArgumentException.class, () -> ReverseOrRotate.getPartitions("", -1));
     }
 
     @DisplayName("Should return the cubed sum of all the digits in a given string")

@@ -2,6 +2,7 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 
 public class DoubleColaTests {
     private static final String[] TEST_NAMES = {"Sheldon", "Leonard", "Penny", "Rajesh", "Howard"};
@@ -13,5 +14,12 @@ public class DoubleColaTests {
         assertEquals("Sheldon", DoubleCola.whoIsNext(TEST_NAMES, 6));
         assertEquals("Penny", DoubleCola.whoIsNext(TEST_NAMES, 52));
         assertEquals("Leonard", DoubleCola.whoIsNext(TEST_NAMES, 7230702951L));
+    }
+
+    @Test
+    public void shouldThrowIllegalStateExceptionWhenDuplicateNamesExist() {
+        final String[] namesWithDuplicates = {"Sheldon", "Sheldon"};
+
+        assertThrows(IllegalStateException.class, () -> DoubleCola.whoIsNext(namesWithDuplicates, 1));
     }
 }

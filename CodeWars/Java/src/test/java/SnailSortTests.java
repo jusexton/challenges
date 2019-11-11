@@ -2,6 +2,8 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 
 public class SnailSortTests {
     @Test
@@ -27,5 +29,16 @@ public class SnailSortTests {
                 new int[]{9, 10, 11, 12},
                 new int[]{13, 14, 15, 16}
         }));
+    }
+
+    @Test
+    public void shouldThrowIllegalArgumentExceptionWhenNumberIsNull() {
+        assertThrows(IllegalArgumentException.class, () -> SnailSort.sort(null));
+    }
+
+    @Test
+    public void shouldReturnEmptyArrayWhenGivenNumbersAreEmpty() {
+        final int[] result = SnailSort.sort(new int[][]{});
+        assertEquals(0, result.length);
     }
 }

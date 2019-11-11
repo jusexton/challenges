@@ -1,18 +1,28 @@
-import org.junit.jupiter.api.Test;
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.ValueSource;
 
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class ValidBracesTests {
-    @Test
-    public void testValidBraces() {
-        assertTrue(ValidBraces.isValid("()"));
-        assertTrue(ValidBraces.isValid("(())"));
-        assertTrue(ValidBraces.isValid("[([])()[]{([])()}]"));
+    @ParameterizedTest
+    @ValueSource(strings = {
+            "",
+            "()",
+            "(())",
+            "[([])()[]{([])()}]"
+    })
+    public void testValidBraces(final String value) {
+        assertTrue(ValidBraces.isValid(value));
+
     }
 
-    @Test
-    public void testInvalidBraces() {
-        assertFalse(ValidBraces.isValid("[(])"));
+    @ParameterizedTest
+    @ValueSource(strings = {
+            "[(])",
+            ")"
+    })
+    public void testInvalidBraces(final String value) {
+        assertFalse(ValidBraces.isValid(value));
     }
 }

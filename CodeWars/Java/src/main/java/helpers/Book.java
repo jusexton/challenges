@@ -5,7 +5,7 @@ public class Book {
     private final String code;
     private final int quantity;
 
-    public Book(String label) {
+    public Book(final String label) {
         String[] codeAndQuantity = label.split(" ");
 
         this.category = codeAndQuantity[0].substring(0, 1);

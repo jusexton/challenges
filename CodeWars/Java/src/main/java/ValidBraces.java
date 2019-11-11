@@ -23,8 +23,8 @@ public final class ValidBraces {
                     return false;
                 }
 
-                char popped = stack.pop();
-                char openingEquivalent = braceMapper.getOrDefault(character, '0');
+                final char popped = stack.pop();
+                final char openingEquivalent = braceMapper.getOrDefault(character, '0');
                 if (openingEquivalent != popped) {
                     return false;
                 }
