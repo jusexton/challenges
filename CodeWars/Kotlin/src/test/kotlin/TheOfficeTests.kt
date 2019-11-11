@@ -1,6 +1,6 @@
-import TheOffice.Companion.NEGATIVE_MESSAGE
-import TheOffice.Companion.POSITIVE_MESSAGE
-import TheOffice.Companion.outed
+import TheOffice.NEGATIVE_MESSAGE
+import TheOffice.POSITIVE_MESSAGE
+import TheOffice.outed
 import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.DisplayName
 import org.junit.jupiter.api.extension.ExtensionContext
