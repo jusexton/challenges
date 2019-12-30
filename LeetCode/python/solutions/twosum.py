@@ -1,4 +1,4 @@
-def two_sum(numbers: list[int], target: int) -> list[int]:
+def two_sum(numbers, target):
     compliment_map = dict()
     for index in range(0, len(numbers)):
         number = numbers[index]
