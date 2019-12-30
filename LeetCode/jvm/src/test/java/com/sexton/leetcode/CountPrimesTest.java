@@ -13,13 +13,6 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class CountPrimesTest {
     @ParameterizedTest
     @ArgumentsSource(CountPrimesTestArgumentProvider.class)
-    public void shouldReturnTheNumberOfPrimesBelowGivenNumber(final int expected, final int value) {
-        final int actual = CountPrimes.countPrimes(value);
-        assertEquals(expected, actual);
-    }
-
-    @ParameterizedTest
-    @ArgumentsSource(CountPrimesTestArgumentProvider.class)
     public void shouldReturnTheNumberOfPrimesBelowGivenNumberAndBeCompliantWithJava8(final int expected, final int value) {
         final int actual = CountPrimes.countPrimesJava8Compliant(value);
         assertEquals(expected, actual);
