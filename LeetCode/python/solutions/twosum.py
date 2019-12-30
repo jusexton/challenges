@@ -1,4 +1,7 @@
-def two_sum(numbers, target):
+from typing import List
+
+
+def two_sum(numbers: List[int], target: int) -> List[int]:
     compliment_map = dict()
     for index in range(0, len(numbers)):
         number = numbers[index]
