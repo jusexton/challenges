@@ -2,7 +2,7 @@ from unittest import TestCase
 
 from parameterized import parameterized
 
-import solutions.prime as prime
+from solutions import prime
 
 
 class TestIsPrime(TestCase):

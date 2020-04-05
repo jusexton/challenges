@@ -2,7 +2,7 @@ from unittest import TestCase
 
 from parameterized import parameterized
 
-import solutions.sequence as sequence
+from solutions import sequence
 
 
 class TestValidate(TestCase):

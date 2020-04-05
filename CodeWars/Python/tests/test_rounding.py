@@ -2,7 +2,7 @@ from unittest import TestCase
 
 from parameterized import parameterized
 
-import solutions.rounding as rounding
+from solutions import rounding
 
 
 class TestRounding(TestCase):

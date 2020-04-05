@@ -2,7 +2,7 @@ from unittest import TestCase
 
 from parameterized import parameterized
 
-import solutions.chain as chain
+from solutions import chain
 
 
 class TestChainAdd(TestCase):

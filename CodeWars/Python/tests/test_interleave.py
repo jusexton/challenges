@@ -2,7 +2,7 @@ from unittest import TestCase
 
 from parameterized import parameterized
 
-import solutions.interleave as interleave
+from solutions import interleave
 
 
 class TestInterleaveLists(TestCase):
@@ -16,4 +16,5 @@ class TestInterleaveLists(TestCase):
     ])
     def test_should_return_values_from_each_arg_correctly_interleaved(self, expected, *args):
         self.assertListEqual(expected, interleave.interleave_lists(*args))
-        self.assertListEqual(expected, interleave.interleave_lists_optimized(*args))
+        self.assertListEqual(
+            expected, interleave.interleave_lists_optimized(*args))

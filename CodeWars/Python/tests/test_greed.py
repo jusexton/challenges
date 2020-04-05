@@ -2,7 +2,7 @@ from unittest import TestCase
 
 from parameterized import parameterized
 
-import solutions.greed as greed
+from solutions import greed
 
 
 class TestCalculateScore(TestCase):

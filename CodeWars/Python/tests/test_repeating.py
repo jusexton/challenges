@@ -2,7 +2,7 @@ from unittest import TestCase
 
 from parameterized import parameterized
 
-import solutions.repeating as repeating
+from solutions import repeating
 
 
 class TestFirstNonRepeating(TestCase):
@@ -15,7 +15,8 @@ class TestFirstNonRepeating(TestCase):
         ('T', 'sTreSS')
     ])
     def test_should_return_the_first_non_repeating_character(self, expected, string):
-        self.assertEqual(expected, repeating.first_non_repeating_letter(string))
+        self.assertEqual(
+            expected, repeating.first_non_repeating_letter(string))
 
     @parameterized.expand([
         ('TT',),
