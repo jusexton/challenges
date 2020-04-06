@@ -1,8 +1,8 @@
-from typing import List
+from typing import Dict, List
 
 
 def two_sum(numbers: List[int], target: int) -> List[int]:
-    compliment_map = dict()
+    compliment_map: Dict[int, int] = dict()
     for index in range(0, len(numbers)):
         number = numbers[index]
         compliment = target - number

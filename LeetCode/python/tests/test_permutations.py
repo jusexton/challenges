@@ -16,4 +16,5 @@ class TestPermutations(TestCase):
     )
     def test_should_return_all_permutations(self, expected, numbers):
         for expected_permutation, actual_permutation in zip(expected, permute(numbers)):
-            self.assertListEqual(list(expected_permutation), list(actual_permutation))
+            self.assertListEqual(list(expected_permutation),
+                                 list(actual_permutation))
