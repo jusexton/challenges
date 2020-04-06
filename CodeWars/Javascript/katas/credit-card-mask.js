@@ -1,3 +1,4 @@
+// 🤨
 module.exports = {
     maskify: function (creditCard) {
         return creditCard.replace(/.(?=....)/g, '#');
