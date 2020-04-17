@@ -6,13 +6,6 @@ from solutions.pathsum import TreeNode, path_sum_exists
 
 
 def build_populated_test_tree():
-    u"""
-        2
-       / \
-      4   3
-     / \   \
-        7   6
-    """
     root_left = TreeNode(4)
     root_left.right = TreeNode(7)
 
